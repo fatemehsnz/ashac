@@ -1,0 +1,83 @@
+@import "@/assets/scss/_variables.scss";
+
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $block-color;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    gap: 50%;
+    z-index: 9999;
+    flex-direction: row;
+    width: 100%;
+
+    &__branding {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        margin: 5px;
+    }
+
+    &__logo {
+        width: 120px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    &__nav {
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-item {
+            text-decoration: none;
+            color: $text-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // font-size: 1.5rem;
+            transition: 0.2s;
+            flex-direction: row;
+
+            &--active {
+                margin: 0px;
+                filter: brightness(0) saturate(100%) invert(65%) sepia(39%) saturate(1117%) hue-rotate(342deg) brightness(96%) contrast(102%);
+                border-radius: 50%;
+                padding: 2px;
+            }
+        }
+
+        &-subitems {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        &-subitem {
+            text-decoration: none;
+            color: $text-color;
+            display: flex;
+            // font-size: 1.5rem;
+            transition: 0.2s;
+        }
+
+        &-icon {
+            margin: 5px;
+            padding-top: 10px;
+        }
+    }
+
+    &__cv>a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
