@@ -1,10 +1,13 @@
 <template>
-  <div class="main-page">
-    <!-- <EducationPage class="main-page__education"/> -->
+  <div>
+    <AboutUs />
+    <ServiceVisulize />
   </div>
 </template>
 
 <script setup>
+import AboutUs from '@/components/AboutUs.vue';
+import ServiceVisulize from '@/components/ServiceVisulize.vue';
 </script>
 
 <style scoped lang="scss">

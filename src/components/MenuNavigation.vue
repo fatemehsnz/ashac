@@ -41,7 +41,9 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <router-link :to="menu.link" v-for="(menu, index) in menus" :key="index">
       {{ menu.name }}
+      <font-awesome-icon icon="fa-solid fa-chevron-down" />
     </router-link>
+    <!-- {{ menu.submenus }} -->
   </div>
   <header>
     <!-- header inner -->
@@ -50,7 +52,9 @@
         <div class="row">
           <div class="col-sm-3">
             <div class="logo">
-              <a href="index.html"><img src="@/assets/img/logo-asha.png" /></a>
+              <a href="index.html"
+                ><img src="@/assets/img/logo-header.png"
+              /></a>
             </div>
           </div>
           <div class="col-sm-9">
@@ -58,9 +62,10 @@
               <li class="d_none">
                 <a href="#">
                   <font-awesome-icon
-                    icon="fa fa-map-marker"
+                    icon="fa-solid fa-location-dot"
                     aria-hidden="true"
-                  /> Location</a
+                  />
+                  Location</a
                 >
               </li>
               <li class="d_none">
@@ -68,7 +73,8 @@
                   ><font-awesome-icon
                     icon="fa-solid fa-phone"
                     aria-hidden="true"
-                  /> 1234567890</a
+                  />
+                  09151043668 - 09153236199</a
                 >
               </li>
               <li class="d_none">
@@ -76,12 +82,14 @@
                   ><font-awesome-icon
                     icon="fa-solid fa-envelope"
                     aria-hidden="true"
-                  /> demo@gmail.com</a
+                  />
+                  ashagroup.c@gmail.com</a
                 >
               </li>
               <li class="d_none">
                 <a href="#"
-                  >Login <font-awesome-icon icon="fa-solid fa-user" aria-hidden="true"
+                  >Login
+                  <font-awesome-icon icon="fa-solid fa-user" aria-hidden="true"
                 /></a>
               </li>
               <li class="d_none">
@@ -93,7 +101,8 @@
               </li>
               <li>
                 <button class="openbtn" onclick="openNav()">
-                  <img src="@/assets/icon/menu_btn.png" />
+                  <font-awesome-icon icon="fa-solid fa-bars" />
+                  <!-- <img src="@/assets/icon/menu_btn.png" /> -->
                 </button>
               </li>
             </ul>
@@ -109,8 +118,8 @@ const menus = [
   {
     name: "آشا",
     icon: "fa-solid fa-house",
-    link: "/",
-    submenus: [
+    link: "/",},
+    // submenus: [
       {
         name: "در باره ما",
         icon: "fa-solid fa-mouse",
@@ -121,13 +130,13 @@ const menus = [
         icon: "fa-solid fa-mouse",
         link: "gallery",
       },
-    ],
-  },
+    // ],
+  // },
   {
     name: "خدمات ما",
     icon: "fa-solid fa-briefcase",
-    link: "services",
-    submenus: [
+    link: "services",},
+    // submenus: [
       {
         name: "گواهی نامه ISO",
         icon: "fa-solid fa-mouse",
@@ -153,8 +162,8 @@ const menus = [
         icon: "fa-solid fa-mouse",
         link: "fgdgf",
       },
-    ],
-  },
+    // ],
+  // },
   {
     name: "تماس با ما",
     icon: "fa-solid fa-graduation-cap",

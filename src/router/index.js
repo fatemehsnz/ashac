@@ -3,10 +3,21 @@ import {
   createWebHashHistory, 
 } from "vue-router";
 
-const routes = [{
+const routes = [
+  {
     path: "/",
     name: "home",
     component: () => import( /* webpackChunkName: "home" */ "@/views/MainPage.vue")
+  },
+  {
+    path: "/about-us",
+    name: "AboutUs",
+    component: () => import( /* webpackChunkName: "AboutUs" */ "@/components/AboutUs.vue")
+  },
+  {
+    path: "/services",
+    name: "services",
+    component: () => import( /* webpackChunkName: "services" */ "@/components/ServiceVisulize.vue")
   },
   {
     path: '/:pathMatch(.*)*',

@@ -201,8 +201,9 @@
 
     .logo {
         display: block;
-        width: 120px;
+        width: 260px;
         float: left;
+        margin: -16px;
     }
 
     .email {

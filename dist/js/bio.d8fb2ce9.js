@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkAshaGroup"]=self["webpackChunkAshaGroup"]||[]).push([[882],{926:function(r,e,n){function u(r,e,n,u,t,s){return" ejijretj "}n.r(e),n.d(e,{default:function(){return c}});var t={},s=n(89);const a=(0,s.Z)(t,[["render",u]]);var c=a}}]);
-//# sourceMappingURL=bio.d8fb2ce9.js.map

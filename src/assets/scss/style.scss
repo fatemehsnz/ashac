@@ -2,9 +2,11 @@
 
 
 body {
-     color: #666666;
+     // direction: rtl;
+     color: $text-color;
+     background-color: $background-color;
      font-size: 14px;
-     font-family: 'Raleway', sans-serif;
+     font-family: iransans, sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -138,7 +140,9 @@ img {
 }
 
 .logo {
-     width: 80px;
+     width: 100%;
+     height: 100px;
+     margin: -20px;
 }
 
 .lead {
@@ -206,28 +210,28 @@ button {
 
 /*---------------------------- preloader area ----------------------------*/
 
-.loader_bg {
-     position: fixed;
-     z-index: 9999999;
-     background: $text-color;
-     width: 100%;
-     height: 100%;
-}
+// .loader_bg {
+//      position: fixed;
+//      z-index: 9999999;
+//      background: $text-color;
+//      width: 100%;
+//      height: 100%;
+// }
 
-.loader {
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
+// .loader {
+//      height: 100%;
+//      width: 100%;
+//      position: absolute;
+//      left: 0;
+//      top: 0;
+//      display: flex;
+//      justify-content: center;
+//      align-items: center;
+// }
 
-.loader img {
-     width: 280px;
-}
+// .loader img {
+//      width: 280px;
+// }
 
 
 /*--------------------------------------------------------------------- header ---------------------------------------------------------------------*/
@@ -428,7 +432,7 @@ ul.email li img {
 .about .titlepage p {
      line-height: 24px;
      padding-top: 19px;
-     color: #000;
+     color: $text-color;
      font-weight: 400;
 }
 
@@ -482,7 +486,7 @@ ul.email li img {
      font-size: 40px;
      font-weight: 700;
      line-height: 46px;
-     color: #251d12;
+     color: $text-color;
      text-transform: uppercase;
 }
 
@@ -511,7 +515,7 @@ ul.email li img {
 
 .building {
      padding-top: 323px;
-     /* background: url(../images/bg.png); */
+     // background: url(../images/bg.png);
      background-size: 100% 100%;
      background-position: center center;
      background-repeat: no-repeat;
@@ -541,7 +545,7 @@ ul.email li img {
 
 .services_main {
      padding-top: 90px;
-     /* background: url(../images/service_bg.jpg); */
+     // background: url(../img/service_bg.jpg);
      background-size: 100% 100%;
      background-position: center center;
      background-repeat: no-repeat;
@@ -553,7 +557,7 @@ ul.email li img {
 }
 
 .services_main .titlepage span {
-     color: #0f0f0e;
+     color: $text-color;
      font-size: 17px;
      line-height: 23px;
      padding-top: 15px;
@@ -566,16 +570,17 @@ ul.email li img {
      padding: 12px 27px;
      line-height: 20px;
      font-size: 17px;
+     color: $text-color;
 }
 
 .lisertab .servi_tab.active {
-     background: #7f1410e6;
+     background: $secondary-color;
      color: $text-color;
 }
 
 .lisertab .servi_tab:focus,
 .lisertab .servi_tab:hover {
-     background: #7f1410e6;
+     background: $secondary-color;
      color: $text-color;
 }
 
@@ -600,6 +605,7 @@ ul.email li img {
 
 .services_main .services_img figure img {
      width: 100%;
+     border-radius: 50%;
 }
 
 .ho_dist {
@@ -610,7 +616,7 @@ ul.email li img {
      bottom: 0;
      left: 0;
      transition: .5s ease;
-     background-color: #82171287;
+     background-color: rgba($secondary-color, 0.33);
      border-radius: 381px;
      margin: 0 auto;
      opacity: 0;
@@ -664,6 +670,9 @@ ul.email li img {
      margin-top: -62px;
 }
 
+.margin_bottom70 {
+     margin-bottom: -170px;
+}
 
 /** end services **/
 
@@ -747,8 +756,8 @@ ul.email li img {
 /** footer **/
 
 .footer {
-     background: #540705;
-     padding-top: 362px
+     background: $secondary-color;
+     padding-top: 64px
 }
 
 ul.social_icon {
@@ -769,7 +778,7 @@ ul.social_icon li:last-child {
 
 ul.social_icon li a {
      background: $text-color;
-     color: #540705;
+     color: $secondary-color;
      width: 50px;
      height: 50px;
      display: inline-block;
@@ -778,6 +787,10 @@ ul.social_icon li a {
      border-radius: 100%;
      font-size: 30px;
      font-weight: bold;
+
+     // & i {
+          // color: $secondary-color;
+     // }
 }
 
 ul.social_icon li a:hover {
@@ -791,6 +804,11 @@ ul.social_icon li a:hover {
      color: $text-color;
      padding-top: 25px;
      line-height: 30px;
+}
+
+.reader img {
+     width: 70%;
+     margin-left: -10pxf;
 }
 
 .padd_flet40 {
@@ -927,7 +945,7 @@ ul.re_post li {
 .send {
      margin: 0 auto;
      display: block;
-     background: #540705;
+     background: $secondary-color;
      color: $text-color;
      max-width: 160px;
      padding: 10px 0px;
@@ -946,5 +964,8 @@ ul.re_post li {
      padding-right: 0;
 }
 
+.svg-inline--fa {
+     vertical-align: -0.25em !important;
+ }
 
 /** end contact **/

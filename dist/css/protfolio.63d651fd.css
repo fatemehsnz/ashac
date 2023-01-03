@@ -1,1 +1,0 @@
-.portfolio{display:flex;flex-direction:column;gap:5%;width:100%}.portfolio__items{display:flex;flex-wrap:wrap;gap:5%}.portfolio__item{width:47%;margin-bottom:5%;text-decoration:none;color:#7a7a7a}.portfolio__img{width:100%;height:38vh}@media(max-width:1500px){.portfolio__item{width:100%!important}}

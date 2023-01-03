@@ -1,5 +1,10 @@
 @import "@/assets/scss/_variables.scss";
 
+@font-face {
+    font-family: iransans;
+    src: url(@/assets/fonts/IRANSansWeb_FaNum_.ttf);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,8 +14,7 @@ body {
     padding: 0px;
     color: $text-color;
     background-color: $background-color;
-    font-family: 'Peyda' !important;
-
+    font-family: iransans !important;
     // display: flex;
     // align-items: center;
     // justify-content: center;
@@ -18,52 +22,56 @@ body {
 }
 
 * {
-    font-family: 'Peyda' !important;
+    font-family: iransans !important;
 }
 
 .content {
-    width: 65%;
-    margin-left: 10%;
-    margin-right: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    // width: 100%;
+    margin: 5%;
+}
+
+.ltx-overlay-main-waves {
+    display: block;
+    height: 64px;
+    z-index: 10;
+    pointer-events: none;
+    overflow: hidden;
+    margin-top: -64px;
+    mask-image: url(@/assets/themes/wave.svg);
+    -webkit-mask-image: url(@/assets/themes/wave.svg);
+    mask-size: 1940px;
+    -webkit-mask-size: 1940px;
+    position: absolute;
+    left: -10px;
+    right: 0;
+    background-color: $secondary-color;
+}
+
+.ltx-overlay-second-waves {
+    display: block;
+    height: 68px;
+    z-index: 9;
+    pointer-events: none;
+    overflow: hidden;
+    margin-top: -74px;
+    mask-image: url(@/assets/themes/wave.svg);
+    -webkit-mask-image: url(@/assets/themes/wave.svg);
+    mask-size: 1940px;
+    -webkit-mask-size: 1940px;
+    position: absolute;
+    left: -150px;
+    right: 0;
+    background-color: $primary-color;
 }
 
 @media (max-width: 800px) {
-    // .sidebar {
-        
-    //     &__nav {
-    //         flex-direction: row;
-    //     }
 
-    //     &__cv,
-    //     &__theme {
-    //         display: none;
-    //     }
-    // }
 }
-
 
 @media (min-width: 800px) {
-    // .sidebar {
-    //     flex-direction: column;
-    //     width: 5%;
-    //     height: 100vh;
-    //     top: 0px;
-
-    //     &__nav {
-    //         flex-direction: column;
-    //     }
-
-    //     &__cv,
-    //     &__theme {
-    //         display: inline;
-    //     }
-    // }
+    
 }
 
-// @media (max-width: 400px) {
-//     .summery {
-//         display: none;
-//     }
-// }
+@media (max-width: 400px) {
+
+}
