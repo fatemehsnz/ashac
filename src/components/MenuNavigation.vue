@@ -41,7 +41,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <router-link :to="menu.link" v-for="(menu, index) in menus" :key="index">
       {{ menu.name }}
-      <font-awesome-icon icon="fa-solid fa-chevron-down" />
+      <!-- <font-awesome-icon icon="fa-solid fa-chevron-down" /> -->
     </router-link>
     <!-- {{ menu.submenus }} -->
   </div>
@@ -113,64 +113,13 @@
   </header>
 </template>
 
-<script setup>
-const menus = [
-  {
-    name: "آشا",
-    icon: "fa-solid fa-house",
-    link: "/",},
-    // submenus: [
-      {
-        name: "در باره ما",
-        icon: "fa-solid fa-mouse",
-        link: "about-us",
-      },
-      {
-        name: "گالری تصاویر",
-        icon: "fa-solid fa-mouse",
-        link: "gallery",
-      },
-    // ],
-  // },
-  {
-    name: "خدمات ما",
-    icon: "fa-solid fa-briefcase",
-    link: "services",},
-    // submenus: [
-      {
-        name: "گواهی نامه ISO",
-        icon: "fa-solid fa-mouse",
-        link: "iso",
-      },
-      {
-        name: "پروانه ساخت تجهیزات پزشکی",
-        icon: "fa-solid fa-mouse",
-        link: "jfdhg",
-      },
-      {
-        name: "مهندسی تولید",
-        icon: "fa-solid fa-mouse",
-        link: "dsff",
-      },
-      {
-        name: "دانش بنیان",
-        icon: "fa-solid fa-mouse",
-        link: "fgddfg",
-      },
-      {
-        name: "آموزش",
-        icon: "fa-solid fa-mouse",
-        link: "fgdgf",
-      },
-    // ],
-  // },
-  {
-    name: "تماس با ما",
-    icon: "fa-solid fa-graduation-cap",
-    link: "education",
-    // submenus: []
+<script >
+import { mapState } from "vuex";
+export default {
+  computed: {
+    ...mapState(["menus"]),
   },
-];
+};
 </script>
 
 <!-- <style lang="scss" src="@/assets/scss/menu.scss"></style> -->

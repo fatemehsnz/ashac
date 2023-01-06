@@ -8,7 +8,9 @@
           <div class="col-md-10 offset-md-1">
             <ul class="social_icon text_align_center">
               <li v-for="(social, index) in socials" :key="index">
-                <a :href="social.href" target="_blank"><font-awesome-icon :icon="social.icon" /></a>
+                <a :href="social.href" target="_blank"
+                  ><font-awesome-icon :icon="social.icon"
+                /></a>
               </li>
             </ul>
           </div>
@@ -75,29 +77,13 @@
   </footer>
 </template>
 
-<script setup>
-const socials = [
-  {
-    title: "instagram",
-    icon: "fa-brands fa-instagram",
-    href: "https://www.instagram.com/ashac.ir/",
+<script >
+import { mapState } from "vuex";
+export default {
+  computed: {
+    ...mapState(["socials"]),
   },
-  {
-    title: "telegram",
-    icon: "fa-brands fa-telegram",
-    href: "http://t.me/",
-  },
-  {
-    title: "linkedin",
-    icon: "fab fa-linkedin",
-    href: "https://www.linkedin.com/in/ashac-ir/",
-  },
-  {
-    title: "whatsapp",
-    icon: "fab fa-whatsapp",
-    href: "https://api.whatsapp.com/send?phone=989151043668",
-  },
-];
+};
 </script>
 
 <style>
