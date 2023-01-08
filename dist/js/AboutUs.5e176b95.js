@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkAshaGroup"]=self["webpackChunkAshaGroup"]||[]).push([[930],{7985:function(u,n,r){function e(u,n,r,e,t,s){return" About us "}r.r(n),r.d(n,{default:function(){return c}});var t={},s=r(89);const a=(0,s.Z)(t,[["render",e]]);var c=a}}]);
-//# sourceMappingURL=AboutUs.5e176b95.js.map

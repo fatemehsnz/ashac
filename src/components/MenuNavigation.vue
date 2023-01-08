@@ -65,7 +65,7 @@
                     icon="fa-solid fa-location-dot"
                     aria-hidden="true"
                   />
-                  Location</a
+                  درباره ما</a
                 >
               </li>
               <li class="d_none">
@@ -88,7 +88,7 @@
               </li>
               <li class="d_none">
                 <a href="#"
-                  >Login
+                  >تماس با ما
                   <font-awesome-icon icon="fa-solid fa-user" aria-hidden="true"
                 /></a>
               </li>
