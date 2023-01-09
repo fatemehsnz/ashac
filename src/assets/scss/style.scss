@@ -238,9 +238,10 @@ button {
 
 header {
      height: 105px;
-     background: white;
+     background: $background-color;
      width: 100%;
-     padding: 33px 30px;
+     padding: 30px;
+     border-bottom: $primary-color 3px solid;
 }
 
 
@@ -256,7 +257,7 @@ ul.email {
 
 ul.email li {
      display: inline-block;
-     color: $text-color-headeer;
+     color: $text-color-header;
      padding: 0 20px;
      font-size: 17px;
 }
@@ -270,11 +271,11 @@ ul.email li a {
 }
 
 ul.email li a {
-     color: $text-color-headeer;
+     color: $text-color-header;
 }
 
 ul.email li i {
-     color: $text-color-headeer;
+     color: $text-color-header;
      font-size: 20px;
      padding-right: 10px;
 }
@@ -293,7 +294,7 @@ ul.email li img {
      z-index: 9999999;
      height: 100%;
      top: 0;
-     left: 0;
+     right: 0;
      background-color: $block-color;
      overflow-x: hidden;
      transition: 0.5s;
@@ -323,7 +324,7 @@ ul.email li img {
 .openbtn {
      cursor: pointer;
      background-color: transparent;
-     color: $text-color-headeer;
+     color: $text-color-header;
      border: none;
 }
 

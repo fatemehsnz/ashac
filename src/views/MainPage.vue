@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- <SliderSwiper /> -->
     <AboutUs />
     <ServiceVisulize />
     <WhyChooseUs />
@@ -12,6 +13,7 @@ import AboutUs from '@/views/AboutUs.vue';
 import ServiceVisulize from '@/views/ServiceVisulize.vue';
 import WhyChooseUs from '@/views/WhyChooseUs.vue';
 import ContactUs from '@/views/ContactUs.vue';
+// import SliderSwiper from '@/components/SliderSwiper.vue';
 
 </script>
 

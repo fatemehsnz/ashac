@@ -39,7 +39,12 @@
 
   <div id="mySidepanel" class="sidepanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <router-link :to="menu.link" v-for="(menu, index) in menus" :key="index">
+    <router-link
+      :to="menu.link"
+      v-for="(menu, index) in menus"
+      :key="index"
+      class="dir-rtl"
+    >
       {{ menu.name }}
       <!-- <font-awesome-icon icon="fa-solid fa-chevron-down" /> -->
     </router-link>
@@ -57,40 +62,38 @@
               /></a>
             </div>
           </div>
-          <div class="col-sm-9">
-            <ul class="email text_align_right">
+          <div class="col-sm-3">
+            <ul
+              class="email dir-rtl"
+              style="text-align: left; margin-top: -14px"
+            >
               <li class="d_none">
-                <a href="#">
+                <a href="mailto:ashagroup.c@gmail.com?subject=feedback"
+                  >ashagroup.c@gmail.com
                   <font-awesome-icon
-                    icon="fa-solid fa-location-dot"
-                    aria-hidden="true"
-                  />
-                  درباره ما</a
-                >
-              </li>
-              <li class="d_none">
-                <a href="#"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-phone"
-                    aria-hidden="true"
-                  />
-                  09151043668 - 09153236199</a
-                >
-              </li>
-              <li class="d_none">
-                <a href="#"
-                  ><font-awesome-icon
                     icon="fa-solid fa-envelope"
                     aria-hidden="true"
                   />
-                  ashagroup.c@gmail.com</a
-                >
+                </a>
               </li>
               <li class="d_none">
-                <a href="#"
-                  >تماس با ما
-                  <font-awesome-icon icon="fa-solid fa-user" aria-hidden="true"
-                /></a>
+                <a href="tel:05137625727">
+                  05137625727
+                  <font-awesome-icon
+                    icon="fa-solid fa-phone"
+                    aria-hidden="true"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul class="email text_align_right">
+              <li class="d_none">
+                <router-link to="about-us"> درباره ما </router-link>
+              </li>
+              <li class="d_none">
+                <router-link to="contact-us"> تماس با ما </router-link>
               </li>
               <li class="d_none">
                 <font-awesome-icon

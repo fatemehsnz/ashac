@@ -58,7 +58,7 @@ export default createStore({
       {
         name: "تماس با ما",
         icon: "fa-solid fa-graduation-cap",
-        link: "education",
+        link: "contact-us",
         // submenus: []
       },
     ],
