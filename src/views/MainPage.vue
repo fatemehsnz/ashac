@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <SliderSwiper /> -->
+    <SliderDemo />
     <AboutUs />
     <ServiceVisulize />
     <WhyChooseUs />
@@ -9,12 +9,11 @@
 </template>
 
 <script setup>
-import AboutUs from '@/views/AboutUs.vue';
-import ServiceVisulize from '@/views/ServiceVisulize.vue';
-import WhyChooseUs from '@/views/WhyChooseUs.vue';
-import ContactUs from '@/views/ContactUs.vue';
-// import SliderSwiper from '@/components/SliderSwiper.vue';
-
+import AboutUs from "@/views/AboutUs.vue";
+import ServiceVisulize from "@/views/ServiceVisulize.vue";
+import WhyChooseUs from "@/views/WhyChooseUs.vue";
+import ContactUs from "@/views/ContactUs.vue";
+import SliderDemo from '@/components/SliderDemo.vue';
 </script>
 
 <style scoped lang="scss">
