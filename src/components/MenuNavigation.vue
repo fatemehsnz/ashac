@@ -65,10 +65,10 @@
           <div class="col-sm-3">
             <ul
               class="email dir-rtl"
-              style="text-align: left; margin-top: -14px"
+              style="text-align: left; margin-top: -10px"
             >
               <li class="d_none">
-                <a href="mailto:ashagroup.c@gmail.com?subject=feedback"
+                <a href="mailto:ashagroup.c@gmail.com?subject=feedback" style="font-size: 14px !important;"
                   >ashagroup.c@gmail.com
                   <font-awesome-icon
                     icon="fa-solid fa-envelope"
@@ -77,8 +77,8 @@
                 </a>
               </li>
               <li class="d_none">
-                <a href="tel:05137625727">
-                  05137625727
+                <a href="tel:05137625727" style="font-size: 14px !important;">
+                  5727 3762 051
                   <font-awesome-icon
                     icon="fa-solid fa-phone"
                     aria-hidden="true"
@@ -90,17 +90,10 @@
           <div class="col-sm-6">
             <ul class="email text_align_right">
               <li class="d_none">
-                <router-link to="about-us"> درباره ما </router-link>
-              </li>
-              <li class="d_none">
                 <router-link to="contact-us"> تماس با ما </router-link>
               </li>
               <li class="d_none">
-                <font-awesome-icon
-                  icon="fa-solid fa-search"
-                  style="cursor: pointer"
-                  aria-hidden="true"
-                />
+                <router-link to="about-us"> درباره ما </router-link>
               </li>
               <li>
                 <button class="openbtn" onclick="openNav()">
