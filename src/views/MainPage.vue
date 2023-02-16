@@ -6,6 +6,7 @@
     <WhyChooseUs />
     <ContactUs />
   </div>
+  <BackToTop />
 </template>
 
 <script setup>
@@ -14,6 +15,7 @@ import ServiceVisulize from "@/views/ServiceVisulize.vue";
 import WhyChooseUs from "@/views/WhyChooseUs.vue";
 import ContactUs from "@/views/ContactUs.vue";
 import SliderDemo from '@/components/SliderDemo.vue';
+import BackToTop from '@/components/BackToTop.vue';
 </script>
 
 <style scoped lang="scss">

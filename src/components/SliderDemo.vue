@@ -189,4 +189,4 @@ export default {
 }
 </script>
 
-<style lang="css" src="@/assets/css/style.min.css" scoped></style>
+<style lang="css" src="@/assets/css/bootstrap.v4.5.3.basco.min.css" scoped></style>

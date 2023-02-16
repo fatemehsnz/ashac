@@ -20,27 +20,15 @@
                 ><img src="@/assets/img/logo-header.png" alt="#"
               /></a>
               <p class="padd_flet40">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters,
+                این یک واقعیت ثابت شده است که خواننده هنگام تماشای طرح بندی آن،
+                با محتوای قابل خواندن یک صفحه، حواسش پرت می شود. نکته استفاده از
+                Lorem Ipsum این است که دارای توزیع کم و بیش نرمال حروف است.
               </p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <div class="reader">
-              <h3>Explore</h3>
-              <ul class="xple_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="reader">
-              <h3>Recent Posts</h3>
+              <h3>نوشته های اخیر</h3>
               <ul class="re_post">
                 <li><img src="images/re_img1.jpg" alt="#" /></li>
                 <li><img src="images/re_img2.jpg" alt="#" /></li>
@@ -49,9 +37,9 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <div class="reader">
-              <h3>Contact Us</h3>
+              <h3>ارتباط با ما</h3>
               <p>
                 It is a lon <br />
                 g established fact that a reader will be distracted by the
@@ -86,5 +74,6 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
+<style lang="css" scoped src="@/assets/css/responsive.basco.css"></style>

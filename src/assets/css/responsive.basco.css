@@ -193,6 +193,7 @@
 @media (max-width: 575px) {
     header {
         padding: 33px 10px;
+        height: auto;
     }
 
     .d_none {
@@ -201,7 +202,7 @@
 
     .logo {
         display: block;
-        width: 200px;
+        /* width: 200px; */
         float: left;
         margin: -16px;
     }

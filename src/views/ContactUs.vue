@@ -2,7 +2,7 @@
   <div class="container-fluid bg-gray px-0">
     <div class="row g-0">
       <div class="col-lg-6 py-6 px-5">
-        <h3 class="display-5 mb-4">لطفا برای دریافت مشاوره رایگان، قسمت های زیر را تکمیل و نیاز خود را اعلام فرمایید.</h3>
+        <h5 class="display-5 mb-4">لطفا برای دریافت مشاوره رایگان، قسمت های زیر را تکمیل و نیاز خود را اعلام فرمایید.</h5>
         <p class="mb-4">
           Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea
           kasd et dolor diam tempor. Nonumy sed dolore no eirmod sit nonumy vero
@@ -74,4 +74,6 @@
 export default {};
 </script>
 
-<style lang="scss" src="@/assets/scss/consultancy.scss"></style>
+
+<style lang="css" scoped src="@/assets/css/bootstrap.v5.0.0.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>

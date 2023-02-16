@@ -153,4 +153,6 @@
 export default {};
 </script>
 
-<style lang="scss" src="@/assets/scss/consultancy.scss"></style>
+
+<style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>

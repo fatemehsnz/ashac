@@ -53,7 +53,7 @@
                       <figure>
                         <img
                           :src="require(`../assets/img/${item.img}`)"
-                          alt="#"
+                          :alt="item.title"
                         />
                       </figure>
                       <div class="ho_dist">
@@ -83,5 +83,6 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
+<style lang="css" scoped src="@/assets/css/responsive.basco.css"></style>

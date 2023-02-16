@@ -25,6 +25,3 @@ onMounted(() => {
 </script>
 
 <style lang="scss" src="@/assets/scss/main.scss"></style>
-<style lang="css" src="@/assets/css/bootstrap.min.css"></style>
-<style lang="scss" src="@/assets/scss/style.scss"></style>
-<style lang="css" src="@/assets/css/responsive.css"></style>
