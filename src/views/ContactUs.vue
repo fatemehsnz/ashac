@@ -36,6 +36,41 @@
               </div>
             </div>
             <div class="col-6">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="form-floating-2"
+                  placeholder="name@example.com"
+                />
+                <label for="form-floating-2">شماره تماس شما *</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="form-floating-2"
+                  placeholder="name@example.com"
+                />
+                <label for="form-floating-2">نام شرکت شما *</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating mb-3">
+                <textarea
+                  type="email"
+                  class="form-control"
+                  id="form-floating-2"
+                  placeholder="name@example.com"
+                  row="5"
+                  style="height: 100px;"
+                ></textarea>
+                <label for="form-floating-2">پیام</label>
+              </div>
+            </div>
+            <!-- <div class="col-6">
               <div class="form-floating">
                 <select
                   class="form-select"
@@ -48,8 +83,8 @@
                 </select>
                 <label for="floatingSelect">Select A Service</label>
               </div>
-            </div>
-            <div class="col-6">
+            </div> -->
+            <div class="col-12">
               <button class="btn btn-primary w-100 h-100" type="submit">
                 Request A Quote
               </button>

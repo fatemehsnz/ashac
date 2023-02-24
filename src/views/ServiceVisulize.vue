@@ -57,7 +57,10 @@
                         />
                       </figure>
                       <div class="ho_dist">
-                        <span>{{ item.title }}</span>
+                        <span>
+                          {{ item.title }} {{ item.desc.substring(0, 70) }}
+                          <a href="#">بیشتر...</a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -85,4 +88,4 @@ export default {
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
-<style lang="css" scoped src="@/assets/css/responsive.basco.css"></style>
+<style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>

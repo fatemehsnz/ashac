@@ -16,7 +16,6 @@
     <swiper-slide>
       <img src="@/assets/img/3.jpg" alt="" />
     </swiper-slide>
-    ...
   </swiper>
 </template>
 

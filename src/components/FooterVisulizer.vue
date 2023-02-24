@@ -40,11 +40,25 @@
           <div class="col-md-4 col-sm-6">
             <div class="reader">
               <h3>ارتباط با ما</h3>
-              <p>
-                It is a lon <br />
-                g established fact that a reader will be distracted by the
-                readable content of a page when looking at its
-              </p>
+              <address>
+                <font-awesome-icon icon="fa-solid fa-location" aria-hidden="true" />
+                مشهد - پارک علم و فناوری
+              </address>
+              <a href="mailto:ashagroup.c@gmail.com?subject=feedback">
+                <font-awesome-icon
+                  icon="fa-solid fa-envelope"
+                  aria-hidden="true"
+                />
+                ashagroup.c@gmail.com
+              </a>
+              <br />
+              <a href="tel:05137625727">
+                <font-awesome-icon
+                  icon="fa-solid fa-phone"
+                  aria-hidden="true"
+                />
+                051 37 625 727
+              </a>
             </div>
           </div>
         </div>
@@ -55,7 +69,7 @@
             <div class="col-md-10 offset-md-1">
               <p>
                 Copyright All Right Reserved By
-                <a href="http://me.engameri.ir"> Engneer Ameri</a>
+                <a href="http://engameri.ir"> Engneer Ameri</a>
               </p>
             </div>
           </div>
@@ -76,4 +90,4 @@ export default {
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
-<style lang="css" scoped src="@/assets/css/responsive.basco.css"></style>
+<style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>
