@@ -130,10 +130,10 @@ function sendMail(name, organization, email, phone, message) {
 
   emailjs
     .send(
-      "service_y80flyx",
-      "template_gwcf0ym",
+      "service_axc6d0j",
+      "template_abn1vqo",
       templateParams,
-      "Ge38V3xoROn63gEEI"
+      "xz3l05OFCqemZ7HsZ"
     )
     .then(
       (result) => {
