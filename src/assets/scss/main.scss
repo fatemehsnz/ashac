@@ -29,6 +29,14 @@ body {
     direction: rtl !important;
 }
 
+.dir-ltr {
+    direction: ltr !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
 .content {
     // width: 100%;
     margin: 5%;

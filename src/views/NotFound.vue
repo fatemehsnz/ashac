@@ -1,52 +1,25 @@
 <template>
-  <!-- Start single page header -->
-  <section id="single-page-header">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="single-page-header-left">
-              <h2>خطای 404 - پیدا نشد</h2>
-              <p>
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                استفاده از
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="single-page-header-right">
-              <ol class="breadcrumb">
-                <li><a href="#">خانه</a></li>
-                <li class="active">404 - پیدا نشد</li>
-              </ol>
-            </div>
-          </div>
+  <div
+    class="container-fluid py-5 wow fadeInUp"
+    data-wow-delay="0.1s"
+    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp"
+  >
+    <div class="container text-center py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h1 class="display-1">خطای 404</h1>
+          <h1>صفحه پیدا نشد</h1>
+          <p class="mb-4">
+            متأسفیم، صفحه ای که به دنبال آن بودید در وب سایت ما وجود ندارد! شاید
+            به صفحه اصلی ما بروید یا سعی کنید از جستجو استفاده کنید؟
+          </p>
+          <a class="btn btn-primary py-3 px-5" href="">برگرد به خانه</a>
         </div>
       </div>
     </div>
-  </section>
-  <!-- End single page header -->
-  <!-- Start error section  -->
-  <section id="error">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="errror-page-area">
-            <h1 class="error-title"><font-awesome-icon icon="fa fa-bug" /></h1>
-            <div class="error-content">
-              <span>اوه!</span>
-              <p>متاسفیم، صفحه ای که به دنبال آن بودید پیدا نشد</p>
-              <a class="error-home" href="index.html">برو به خانه</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End error section  -->
+  </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
-<style></style>
+<style lang="css" scoped src="@/assets/css/bootstrap.v5.0.0.min.css"></style>

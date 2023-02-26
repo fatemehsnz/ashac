@@ -1,4 +1,5 @@
 <template>
+  <br /><br />
   <div class="ltx-overlay-main-waves"></div>
   <div class="ltx-overlay-second-waves"></div>
   <footer>
@@ -41,7 +42,10 @@
             <div class="reader">
               <h3>ارتباط با ما</h3>
               <address>
-                <font-awesome-icon icon="fa-solid fa-location" aria-hidden="true" />
+                <font-awesome-icon
+                  icon="fa fa-map-marker-alt"
+                  aria-hidden="true"
+                />
                 مشهد - پارک علم و فناوری
               </address>
               <a href="mailto:ashagroup.c@gmail.com?subject=feedback">
