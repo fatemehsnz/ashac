@@ -23,3 +23,4 @@
 <script setup></script>
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v5.0.0.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>

@@ -16,7 +16,7 @@
               ref="form"
               @submit.prevent="sendMail(name, organization, email, phone, message)"
             >
-              <div class="row">
+              <div class="row dir-rtl">
                 <div class="col-lg-6">
                   <div class="form-group">
                     <input

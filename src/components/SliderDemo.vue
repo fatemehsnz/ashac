@@ -23,7 +23,7 @@
             >
               <img
                 class="position-absolute w-100 h-100"
-                src="@/assets/img/carousel-1.jpg"
+                src="@/assets/img/1.jpg"
                 style="object-fit: cover"
               />
               <div
@@ -50,7 +50,7 @@
             <div class="carousel-item position-relative" style="height: 430px">
               <img
                 class="position-absolute w-100 h-100"
-                src="@/assets/img/carousel-2.jpg"
+                src="@/assets/img/2.jpg"
                 style="object-fit: cover"
               />
               <div
@@ -77,7 +77,7 @@
             <div class="carousel-item position-relative" style="height: 430px">
               <img
                 class="position-absolute w-100 h-100"
-                src="@/assets/img/carousel-3.jpg"
+                src="@/assets/img/3.jpg"
                 style="object-fit: cover"
               />
               <div
@@ -106,19 +106,17 @@
       </div>
       <div class="col-lg-4 col-md-4 ">
         <div class="product-offer mb-30" style="height: 200px">
-          <img class="img-fluid" src="@/assets/img/offer-1.jpg" alt="" />
+          <img class="img-fluid" src="@/assets/img/Slide-R01.jpg" alt="" />
           <div class="offer-text">
-            <h6 class="text-white text-uppercase">Save 20%</h6>
-            <h3 class="text-white mb-3">Special Offer</h3>
-            <a href="" class="btn btn-primary">Shop Now</a>
+            <h3 class="text-white mb-3">گواهی دانش بنیان</h3>
+            <a href="" class="btn btn-primary" style="font-size: 12px;">شرایط دانش بنیان را دارم!؟</a>
           </div>
         </div>
         <div class="product-offer mb-30" style="height: 200px">
-          <img class="img-fluid" src="@/assets/img/offer-2.jpg" alt="" />
+          <img class="img-fluid" src="@/assets/img/Slide-R02.jpg" alt="" />
           <div class="offer-text">
-            <h6 class="text-white text-uppercase">Save 20%</h6>
-            <h3 class="text-white mb-3">Special Offer</h3>
-            <a href="" class="btn btn-primary">Shop Now</a>
+            <h3 class="text-white mb-3">تجهیزات و ملزومات پزشکی</h3>
+            <a href="" class="btn btn-primary" style="font-size: 12px;">فرآیند دریافت مجوز و تولید کالای پزشکی</a>
           </div>
         </div>
       </div>
