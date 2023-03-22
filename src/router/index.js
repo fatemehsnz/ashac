@@ -20,6 +20,11 @@ const routes = [
     component: () => import( /* webpackChunkName: "services" */ "@/views/ServiceVisulize.vue")
   },
   {
+    path: "/service/:name",
+    name: "service",
+    component: () => import( /* webpackChunkName: "service" */ "@/views/ServicePage.vue")
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: () => import( /* webpackChunkName: "404" */ '@/views/NotFound.vue'),

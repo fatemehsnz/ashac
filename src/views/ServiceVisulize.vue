@@ -59,7 +59,7 @@
                       <div class="ho_dist">
                         <span>
                           {{ item.title }} {{ item.desc.substring(0, 70) }}
-                          <a href="#">بیشتر...</a>
+                          <router-link :to="{ name: 'service', params: { name: item.title } }">بیشتر...</router-link>
                         </span>
                       </div>
                     </div>
