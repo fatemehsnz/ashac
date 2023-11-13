@@ -4,7 +4,7 @@
     <AboutUs />
     <ServiceVisulize />
     <WhyChooseUs />
-    <TeamMembers />
+    <!-- <TeamMembers /> -->
     <!-- <OurClients /> -->
     <ContactPage />
   </div>
@@ -15,7 +15,7 @@
 import AboutUs from "@/views/AboutUs.vue";
 import ServiceVisulize from "@/views/ServiceVisulize.vue";
 import WhyChooseUs from "@/views/WhyChooseUs.vue";
-import TeamMembers from "@/views/TeamMembers.vue";
+// import TeamMembers from "@/views/TeamMembers.vue";
 import ContactPage from "@/views/ContactPage.vue";
 import SliderDemo from '@/components/SliderDemo.vue';
 import BackToTop from '@/components/BackToTop.vue';
