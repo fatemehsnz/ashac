@@ -16,37 +16,21 @@
             </ul>
           </div>
           <div class="col-md-4 col-sm-6">
-            <div class="reader">
-              <a href="index.html"
-                ><img src="@/assets/img/logo-header.png" alt="#"
-              /></a>
-              <p class="padd_flet40">
-                این یک واقعیت ثابت شده است که خواننده هنگام تماشای طرح بندی آن،
-                با محتوای قابل خواندن یک صفحه، حواسش پرت می شود. نکته استفاده از
-                Lorem Ipsum این است که دارای توزیع کم و بیش نرمال حروف است.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="reader">
-              <h3>نوشته های اخیر</h3>
-              <ul class="re_post">
-                <li><img src="images/re_img1.jpg" alt="#" /></li>
-                <li><img src="images/re_img2.jpg" alt="#" /></li>
-                <li><img src="images/re_img3.jpg" alt="#" /></li>
-                <li><img src="images/re_img4.jpg" alt="#" /></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="reader">
+            <div class="reader dir-rtl">
               <h3>ارتباط با ما</h3>
               <address>
                 <font-awesome-icon
                   icon="fa fa-map-marker-alt"
                   aria-hidden="true"
                 />
-                مشهد - پارک علم و فناوری
+                دفتر مرکزی: معلم 11، پلاک 50، واحد 4
+              </address>
+              <address>
+                <font-awesome-icon
+                  icon="fa fa-map-marker-alt"
+                  aria-hidden="true"
+                />
+                دفتر کارگزاری: پارک علم و فناوری خراسان، ساختمان مرکزی
               </address>
               <a href="mailto:ashagroup.c@gmail.com?subject=feedback">
                 <font-awesome-icon
@@ -56,13 +40,48 @@
                 ashagroup.c@gmail.com
               </a>
               <br />
-              <a href="tel:05137625727">
+              <a href="tel:05136039420">
                 <font-awesome-icon
                   icon="fa-solid fa-phone"
                   aria-hidden="true"
                 />
-                051 37 625 727
+                9420 3603 051
               </a>
+              <br />
+              <a href="tel:09007202530">
+                <font-awesome-icon
+                  icon="fa-solid fa-phone"
+                  aria-hidden="true"
+                />
+                2530 207 0900
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="reader dir-rtl">
+              <h3>لینک‌های مفید</h3>
+              <ul class="re_post">
+                <li><a href="https://portal.kstp.ir/">پارک علم و فناوری خراسان</a></li>
+                <li><a href="http://imed.ir/">اداره کل تجهیزات پزشکی</a></li>
+                <li><a href="https://entities.ttac.ir/">سازمان غذا و دارو</a></li>
+                <li><a href="https://irsherkat.ssaa.ir/">سامانه ثبت شرکت ها</a></li>
+                <li><a href="https://mojavez.ir/">درگاه ملی مجوزها</a></li>
+                <li><a href="https://reg.daneshbonyan.ir/">سامانه دانش بنیان</a></li>
+                <li><a href="https://www.ntsw.ir/">سامانه جامع تجارت</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <div class="reader dir-rtl">
+              <a href="index.html"><img src="@/assets/img/logo-header.png" alt="#"/></a>
+              <p class="padd_flet40">
+                <ul style="list-style-type: armenian;">
+                  <li>مشاوره و اخذ گواهی دانش بنیان</li>
+                  <li>پیاده سازی سیتم‌های مدیریت کیفیت (CE، ISO)</li>
+                  <li>اخذ مجوزهای تولید محصول (پزشکی، غذایی، صنعتی و ...)</li>
+                  <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>

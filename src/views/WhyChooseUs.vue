@@ -36,9 +36,9 @@
               ما زمانی موفق می شویم که شما موفق شوید. ما اینجا هستیم تا به رشد
               سازمان شما و کسب موفقیت ها کمک نماییم.
             </p>
-            <a href="" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2"
+            <!-- <a href="" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2"
               >Learn More</a
-            >
+            > -->
           </div>
         </div>
       </div>
@@ -69,7 +69,6 @@
 <script>
 export default {};
 </script>
-
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>

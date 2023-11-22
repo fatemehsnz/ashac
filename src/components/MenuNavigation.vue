@@ -38,9 +38,18 @@
                   />
                 </a>
               </li>
+              <!-- <li>
+                <a href="tel:05136039420" style="font-size: 11px !important;">
+                  9420 3603 051
+                  <font-awesome-icon
+                    icon="fa-solid fa-phone"
+                    aria-hidden="true"
+                  />
+                </a>
+              </li> -->
               <li>
-                <a href="tel:05137625727" style="font-size: 11px !important;">
-                  27 57 62 37 051
+                <a href="tel:09007202530" style="font-size: 11px !important;">
+                  2530 720 0900
                   <font-awesome-icon
                     icon="fa-solid fa-phone"
                     aria-hidden="true"

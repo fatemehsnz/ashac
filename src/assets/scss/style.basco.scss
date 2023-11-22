@@ -868,7 +868,8 @@ ul.re_post {
 }
 
 ul.re_post li {
-     display: inline-block;
+     display: flexbox;
+     gap: 0px;
      padding: 3px;
 }
 

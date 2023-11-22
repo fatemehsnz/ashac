@@ -1,13 +1,16 @@
 <template>
   <div class="services_main dir-rtl">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div
+        class="row"
+        style="display: flex; align-items: center; justify-content: center"
+      >
+        <div class="col-md-2 col-sm-12">
           <div class="titlepage">
             <h2>آشا؟!!</h2>
           </div>
         </div>
-        <div class="col-sm-9" id="about-us-text">
+        <div class="col-md-8 col-sm-12" id="about-us-text">
           ما، گروه مشاورهٔ آشا، تاکنون توانسته‌ایم به شرکت‌های مختلف کمک کنیم تا
           راحت‌تر و سریع‌تر گواهی‌ها و مجوزهای لازم خود را دریافت کنند. مشتریان
           ما مدیران هوشمندی هستند که تمایل دارند تمرکز آنها تنها به تولید و
@@ -17,6 +20,11 @@
           تنها بخشی از فعالیت ماست. خرسندیم که این شما مشتریان عزیز هستید، که ما
           را به دیگران معرفی می‌کنید و اعتماد شما به ما، گویای توانمندی و تعهدی
           است که در ارائهٔ خدماتمان دیده‌اید.
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <a href="https://ashac.ir/asha.pdf" class="btn uza-btn btn-6 mt-15"
+            >دریافت کاتالوگ</a
+          >
         </div>
       </div>
     </div>
@@ -32,3 +40,6 @@ export default {};
   text-align: justify;
 }
 </style>
+
+<style lang="css" scoped src="@/assets/css/bootstrap.v4.1.3.min.css"></style>
+<style lang="scss" scoped src="@/assets/scss/style.uza.scss"></style>

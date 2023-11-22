@@ -92,15 +92,22 @@
             <!-- Single Sidebar Area -->
             <div class="single-contact-card mb-50">
               <h4>مشهد</h4>
-              <h3 class="dir-ltr text-right">051 37 625 727</h3>
-              <h6>پارک علم و فناوری <br />ashagroup.c@gmail.com</h6>
+              <h3 class="dir-ltr text-right">051 3603 9420</h3>
+              <h3 class="dir-ltr text-right">0900 720 2530</h3>
+              <h6>
+                دفتر مرکزی: معلم 11، پلاک 50، واحد 4
+                <br />
+                دفتر کارگزاری: پارک علم و فناوری خراسان، ساختمان مرکزی
+                <br />
+                ashagroup.c@gmail.com
+              </h6>
             </div>
           </div>
         </div>
       </div>
-      <br />
+      <!-- <br />
       <div class="row">
-        <!-- Google Maps -->
+        // Google Maps
         <div class="col-12">
           <div class="google-maps">
             <iframe
@@ -109,10 +116,9 @@
             ></iframe>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
-  <!-- ***** Contact Area End ***** -->
 </template>
 
 <script setup>
@@ -147,7 +153,6 @@ function sendMail(name, organization, email, phone, message) {
     );
 }
 </script>
-
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.1.3.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.uza.scss"></style>

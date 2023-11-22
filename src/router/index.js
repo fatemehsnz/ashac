@@ -15,6 +15,21 @@ const routes = [
     component: () => import( /* webpackChunkName: "AboutUs" */ "@/views/AboutUs.vue")
   },
   {
+    path: "/contact-us",
+    name: "ContactUs",
+    component: () => import( /* webpackChunkName: "ContactUs" */ "@/views/ContactUs.vue")
+  },
+  {
+    path: "/knowledge-based-conditions",
+    name: "KnowledgeBasedConditions",
+    component: () => import( /* webpackChunkName: "KnowledgeBasedConditions" */ "@/views/KnowledgeBasedConditions.vue")
+  },
+  {
+    path: "/process-obtaining-license-producing-medical",
+    name: "ProcessObtainingLicenseAndProducingMedicalProduct",
+    component: () => import( /* webpackChunkName: "ProcessObtainingLicenseAndProducingMedicalProduct" */ "@/views/ProcessObtainingLicenseAndProducingMedicalProduct.vue")
+  },
+  {
     path: "/services",
     name: "services",
     component: () => import( /* webpackChunkName: "services" */ "@/views/ServiceVisulize.vue")
