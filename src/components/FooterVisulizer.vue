@@ -53,7 +53,7 @@
                   icon="fa-solid fa-phone"
                   aria-hidden="true"
                 />
-                2530 207 0900
+                30 25 20 9007
               </a>
             </div>
           </div>
@@ -70,7 +70,7 @@
                 <li><a href="https://www.ntsw.ir/">سامانه جامع تجارت</a></li>
               </ul>
             </div>
-          </div>
+          </div> 
           <div class="col-md-5 col-sm-6">
             <div class="reader dir-rtl">
               <a href="index.html"><img src="@/assets/img/logo-header.png" alt="#"/></a>
@@ -79,7 +79,7 @@
                   <li>مشاوره و اخذ گواهی دانش بنیان</li>
                   <li>پیاده سازی سیتم‌های مدیریت کیفیت (CE، ISO)</li>
                   <li>اخذ مجوزهای تولید محصول (پزشکی، غذایی، صنعتی و ...)</li>
-                  <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول</li>
+                  <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول (TF/FS/BP)</li>
                 </ul>
               </p>
             </div>

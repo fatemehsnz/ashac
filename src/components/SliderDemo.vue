@@ -33,7 +33,7 @@
                   <h1
                     class="display-4 text-white mb-3 animate__animated animate__fadeInDown"
                   >
-                    تجربه و تخصص
+                    کارگزار رسمی پارک علم و فناوری خراسان
                   </h1>
                   <p class="mx-md-5 px-5 animate__animated animate__bounceIn">
                     .ما خدمات مشاوره خود را متناسب با نیاز شرکت شما طراحی
