@@ -1,0 +1,15 @@
+@import "@/assets/scss/_variables.scss";
+
+@font-face {
+    font-family: iransans;
+    src: url(@/assets/fonts/IRANSansWeb_FaNum_.ttf);
+}
+
+h1 {
+    color: $text-color;
+    font-family: iransans !important;
+}
+
+* {
+    font-family: iransans !important;
+}

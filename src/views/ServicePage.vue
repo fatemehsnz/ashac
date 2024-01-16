@@ -1,14 +1,15 @@
 <template>
-  <div class="service" v-for="service in services" :key="service">
-    <div v-for="(item, index) in service.items" :key="index">
+  <div class="services" v-for="service in services" :key="service">
+    <div class="service" v-for="(item, index) in service.items" :key="index">
       <div class="service__img" v-if="this.$route.params.name == item.title">
         <img :src="require(`../assets/img/${item.img}`)" :alt="item.title" />
       </div>
-      <div class="service__title" v-if="this.$route.params.name == item.title">
-        {{ item.title }}
-      </div>
-      <div class="service__desc" v-if="this.$route.params.name == item.title">
-        {{ item.desc }}
+      <div
+        class="service__content"
+        v-if="this.$route.params.name == item.title"
+      >
+        <div class="service__title">{{ item.title }}</div>
+        <div class="service__desc">{{ item.desc }}</div>
       </div>
     </div>
   </div>
@@ -17,15 +18,9 @@
 <script>
 import { mapState } from "vuex";
 export default {
-  //   props: {
-  // serviceData: Object,
-  //   },
   computed: {
     ...mapState(["services"]),
   },
-  //   onMounted(() => {
-  //     this.$service = "";
-  //   }),
 };
 </script>
 
