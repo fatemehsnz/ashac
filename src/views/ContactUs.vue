@@ -91,8 +91,8 @@
             <!-- Single Sidebar Area -->
             <div class="single-contact-card mb-50">
               <h4>مشهد</h4>
-              <h3 class="dir-ltr text-right">051 3603 9420</h3>
-              <h3 class="dir-ltr text-right">9007 20 25 30</h3>
+              <h3 class="dir-ltr text-right">05137 62 57 27</h3>
+              <h3 class="dir-ltr text-right">09007 20 25 30</h3>
               <h6>
                 دفتر مرکزی: معلم 11، پلاک 50، واحد 4
                 <br />

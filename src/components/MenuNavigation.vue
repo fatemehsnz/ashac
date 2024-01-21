@@ -49,7 +49,7 @@
               </li> -->
               <li>
                 <a href="tel:09007202530" style="font-size: 11px !important;">
-                  30 25 20 9007
+                  30 25 20 09007
                   <font-awesome-icon
                     icon="fa-solid fa-phone"
                     aria-hidden="true"

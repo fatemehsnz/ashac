@@ -40,12 +40,12 @@
                 ashagroup.c@gmail.com
               </a>
               <br />
-              <a href="tel:05136039420">
+              <a href="tel:05137625727">
                 <font-awesome-icon
                   icon="fa-solid fa-phone"
                   aria-hidden="true"
                 />
-                9420 3603 051
+                27 57 62 05137
               </a>
               <br />
               <a href="tel:09007202530">
@@ -53,7 +53,7 @@
                   icon="fa-solid fa-phone"
                   aria-hidden="true"
                 />
-                30 25 20 9007
+                30 25 20 09007
               </a>
             </div>
           </div>
