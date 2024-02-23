@@ -82,6 +82,8 @@
                   <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول (TF/FS/BP)</li>
                 </ul>
               </p>
+              <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=465855&Code=mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=465855&Code=mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK' alt='' style='cursor:pointer' Code='mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK'></a>
+              <!-- <div>{{ enamad }}</div> -->
             </div>
           </div>
         </div>
@@ -90,7 +92,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-10 offset-md-1">
-              <p>
+              <p style="font-size: small;">
                 Copyright All Right Reserved By
                 <a href="http://engameri.ir"> Engneer Ameri</a>
               </p>
@@ -106,7 +108,7 @@
 import { mapState } from "vuex";
 export default {
   computed: {
-    ...mapState(["socials"]),
+    ...mapState(["socials", "enamad"]),
   },
 };
 </script>
