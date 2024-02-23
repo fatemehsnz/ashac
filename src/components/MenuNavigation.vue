@@ -61,6 +61,9 @@
           <div class="col-12 col-xxl-7 col-xl-6 col-lg-6 col-md-4 col-sm-2 col-xs-3">
             <ul class="email text_align_right">
               <li class="d_none">
+                <router-link to="download">دانلود</router-link>
+              </li>
+              <li class="d_none">
                 <router-link to="contact-us">تماس با ما</router-link>
               </li>
               <li class="d_none">
