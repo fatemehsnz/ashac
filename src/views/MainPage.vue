@@ -2,11 +2,11 @@
   <div>
     <SliderDemo />
     <br />
-    <div style="width: 100%; height: 3px; background-color: #db8f15;"></div>
+    <div style="width: 100%; height: 1px; background-color: #db8f15;"></div>
     <br />
     <AboutUs />
     <br />
-    <div style="width: 100%; height: 3px; background-color: #db8f15;"></div>
+    <div style="width: 100%; height: 1px; background-color: #db8f15;"></div>
     <br />
 
     <ServiceVisulize />
