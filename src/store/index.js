@@ -89,21 +89,39 @@ export default createStore({
         title: 'دانش بنیان',
         id: 'knowledge-tab-md',
         controls: 'knowledge-md',
-        items: []
+        items: [{
+          title: 'دانش بنیان',
+          img: 'danesh1.79dd5a6f.png',
+          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟            مزایای عضویت در پارک علم و فناوری؟)',
+          style: 'padding_0 margin_right20'
+        }
+     ]
       },
       {
         name: 'license',
         title: 'پروانه ساخت',
         id: 'license-tab-md',
         controls: 'license-md',
-        items: []
+        items: [{
+          title: 'پروانه ساخت',
+          img: 'qaza.ac5904cc.png',
+          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟            مزایای عضویت در پارک علم و فناوری؟)',
+          style: 'padding_0 margin_right20'
+        }
+     ]
       },
       {
         name: 'iso',
         title: 'ایزو',
         id: 'iso-tab-md',
         controls: 'iso-md',
-        items: []
+        items: [{
+          title: 'ایزو',
+          img: 'iso.bfa55c99.png',
+          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟            مزایای عضویت در پارک علم و فناوری؟)',
+          style: 'padding_0 margin_right20'
+        }
+      ]
       }
       ,
       {
@@ -113,8 +131,8 @@ export default createStore({
         controls: 'support-md',
         items: [{
             title: 'آموزش سیستم های مدیریت کیفیت',
-            img: 'education-1-1.png',
-            desc: 'ما برنامه های آموزشی ارائه می دهیم که برای معرفی اصول، فرآیندها ، اصطلاحات و الزامات سیستم مدیریت کیفت، آنالیز و مدیریت ریسک، تدوین FMEA، الزامات تولید تجهیزات پزشکی و تکوین محصول طراحی شده است. آموزش‌های ما کاربردی و مطابق نیاز سازمان شما طراحی و اجرا خواهد شد.',
+            img: 'asha.4f489db8.png',
+            desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟<br> مزایای عضویت در پارک علم و فناوری؟)',
             style: 'padding_0 margin_right20'
           }
         ]
@@ -124,7 +142,13 @@ export default createStore({
         title: 'خدمات مهندسی',
         id: 'engineering-tab-md',
         controls: 'engineering-md',
-        items: []
+        items: [{
+          title: 'خدمات مهندسی',
+          img: 'mohandes.e3423891.png',
+          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟  مزایای عضویت در پارک علم و فناوری؟)',
+          style: 'padding_0 margin_right20'
+        }
+     ]
       }
     ],
     enamad: "<a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=465855&Code=mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=465855&Code=mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK' alt='' style='cursor:pointer' Code='mGoYW9Oajj8Y5887aGBPae4CJkOPjTwK'></a>"
