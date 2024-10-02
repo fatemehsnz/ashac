@@ -92,7 +92,7 @@ export default createStore({
         items: [{
           title: 'دانش بنیان',
           img: 'danesh1.79dd5a6f.png',
-          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟   مزایای عضویت در پارک علم و فناوری؟)',
+          desc: '- چرا دانش بنیان شویم؟<br> - تسهیل اخذ گواهی دانش بنیان<br>- دریافت تسهیلات مختلف<br>- مشاوره حمایت های دانش بنیان<br>- مشاوره تولید دانش محور<br>  - قانون جهش تولید دانش بنیان<br>',
           style: 'padding_0 margin_right20'
         }
      ]
@@ -118,7 +118,7 @@ export default createStore({
         items: [{
           title: 'ایزو',
           img: 'iso.bfa55c99.png',
-          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟            مزایای عضویت در پارک علم و فناوری؟)',
+          desc: '- ایزو چه کمکی به ما می کند؟<br>ISO 9001 (QUALITY MANAGEMENT SYSTEM)<br>ISO 13485 (MEDICAL DEVICE QUALITY MANAGEMENT SYSTEM)<br>IMS (INTEGRATED MANAGEMENT SYSTEM; 45001-14001-9001) <br>ISO 16949 (IATF: INTERNATIONAL AUTOMOTIVE TASK FORCE) <br>EFQM (EUROPEAN FOUNDATION FOR QUALITY MANAGEMENT) <br>CE (CONFORMITE EUROPEENNE)',
           style: 'padding_0 margin_right20'
         }
       ]
@@ -132,7 +132,7 @@ export default createStore({
         items: [{
             title: 'آموزش سیستم های مدیریت کیفیت',
             img: 'asha.4f489db8.png',
-            desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟<br> مزایای عضویت در پارک علم و فناوری؟)',
+            desc: '- سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟<br>- مزایای عضویت در پارک علم و فناوری<br>- خدمات مالکیت معنوی و فکری<br>- اخذ کارت بازرگانی و پروانه بهره برداری<br>- تدوین استراتژی های فروش و بازاریابی<br>- مطالعات امکان سنجی تولید(FS) <br>- تدوین طرح تجاری (BP)',
             style: 'padding_0 margin_right20'
           }
         ]
@@ -145,7 +145,7 @@ export default createStore({
         items: [{
           title: 'خدمات مهندسی',
           img: 'mohandes.e3423891.png',
-          desc: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟  مزایای عضویت در پارک علم و فناوری؟)',
+          desc: '- چگونه طرح توجیهی تولید بنویسیم؟<br>- مدیریت ریسک و آنالیز ریسک چیست؟<br>- چگونگی بررسی بازار و تعیین استراتژی؟<br>- زمان سنجی و افزایش بهره وری<br>- برگزاری دوره های آموزشی<br>- پایش و برنامه ریزی تولید',
           style: 'padding_0 margin_right20'
         }
      ]

@@ -70,7 +70,7 @@ export default {
   border: 2px solid #000; 
   padding: 30px; 
   margin-bottom: 30px; 
-  max-width: 700px;
+  max-width: 750px;
 }
 .image-container {
   margin-left:20px;
