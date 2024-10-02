@@ -19,16 +19,15 @@
             <div v-for="service in services" :key="service" class="tab-pane fade"
               :class="service.name == 'license' && 'show active'" :id="service.controls" role="tabpanel"
               :aria-labelledby="service.id">
-              <div class="row">
-                <div class="col-md-4 col-sm-6" v-for="(item, index) in service.items" :key="index">
+              <div class="services border p-4">
+                <div class="col-md-12" v-for="(item, index) in service.items" :key="index">
                   <router-link :to="{ name: 'service', params: { name: item.title } }" class="service-link">
-                    <div class="services border p-4">
-                      <figure class="mb-3">
+                    <div class="d-flex align-items-start ">
+                      <div class="image-container" style="flex: 1 1 33%;">
                         <img :src="require(`../assets/img/${item.img}`)" :alt="item.title" class="service-image" />
-                      </figure>
-                      <div class="service-text text-center">
-                        <h5>{{ item.title }}</h5>
-                        <p class="descri  ption">{{ item.desc.substring(0, 70) }}</p>
+                      </div>
+                      <div class="service-text" style="flex: 2 1 67%;">
+                        <p class="description" v-html="item.desc"></p>
                         <span class="more-link">بیشتر...</span>
                       </div>
                     </div>
@@ -68,29 +67,33 @@ export default {
 }
 
 .services {
-  border: 2px solid #000; /* رنگ و ضخامت مرز */
-  padding: 30px; /* افزایش فاصله داخلی */
-  margin-bottom: 30px; /* افزایش فاصله بین مستطیل‌ها */
-  width: 100%; /* عرض مستطیل را به ۱۰۰% تنظیم کنید */
-  max-width: 800px !important;  ;  /* حداکثر عرض مستطیل */
-  display: flex; /* برای قرار دادن عکس و متن در کنار هم */
-  align-items: center; /* وسط‌چینی عمودی عناصر */
+  border: 2px solid #000; 
+  padding: 30px; 
+  margin-bottom: 30px; 
+  max-width: 700px;
 }
-
+.image-container {
+  margin-left:20px;
+  margin-right: 20px;
+}
 .service-image {
-  transition: transform 0.4s ease; /* انتقال نرم برای بزرگ‌نمایی */
+  transition: transform 0.4s ease; 
+  max-width: 100%; 
+  height: auto; 
 }
 
 .services:hover .service-image {
-  transform: translateY(-5px) scale(1.1); /* حرکت به بالا و بزرگ‌نمایی کمی */
+  transform: translateY(-5px) scale(1.1);
 }
+
 .service-text {
-  width: 70%;
   padding-left: 20px; 
+  padding-top: 20px; 
 }
 
 .description {
   display: block; 
   margin-top: 5px; 
+  color: white
 }
 </style>
