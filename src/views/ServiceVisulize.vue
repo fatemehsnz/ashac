@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="titlepage">
-            <h2>خدمات آشا</h2>
+            <h2 >خدمات آشا</h2>
           </div>
         </div>
         <div class="col-sm-9">

@@ -4,11 +4,17 @@
     font-family: iransans;
     src: url(@/assets/fonts/IRANSansWeb_FaNum_.ttf);
 }
+@font-face {
+    font-family: peyda;
+    src: url(@/assets/fonts/Peyda-SemiBold.ttf);
+}
 
 html {
     scroll-behavior: smooth;
 }
-
+h2 {
+    font-family: peyda !important;
+}
 body {
     margin: 0px;
     padding: 0px;
