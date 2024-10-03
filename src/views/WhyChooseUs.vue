@@ -28,18 +28,10 @@
         <div class="d-block bg-primary h-100 text-center">
           <img
             class="img-fluid"
-            src="@/assets/img/Win-Win-Lockup-wCoins.png"
+            src="@/assets/img/chess.jpg"
             alt=""
           />
-          <div class="p-4">
-            <p class="text-white mb-4">
-              ما زمانی موفق می شویم که شما موفق شوید. ما اینجا هستیم تا به رشد
-              سازمان شما و کسب موفقیت ها کمک نماییم.
-            </p>
-            <!-- <a href="" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2"
-              >Learn More</a
-            > -->
-          </div>
+         
         </div>
       </div>
       <div class="col-lg-4">
