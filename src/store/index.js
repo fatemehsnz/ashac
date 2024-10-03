@@ -70,7 +70,7 @@ export default createStore({
       {
         title: "telegram",
         icon: "fa-brands fa-telegram",
-        href: "http://t.me/",
+        href: "http://t.m e/",
       },
       {
         title: "linkedin",
@@ -82,6 +82,11 @@ export default createStore({
         icon: "fab fa-whatsapp",
         href: "https://api.whatsapp.com/send?phone=989151043668",
       },
+      // {
+      //   title: "ita",
+      //   icon: "@/assets/103-GraFa-1.png",
+      //   href: "https://www.linkedin.com/in/ashac-ir/",
+      // },
     ],
     services: [
       {
