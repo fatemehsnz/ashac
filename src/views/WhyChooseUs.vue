@@ -9,8 +9,7 @@
         <div class="row g-5">
           <div class="col-12">
             <div
-              class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3"
-              style="width: 60px; height: 60px"
+              class="triangle mb-3"
             >
               <i class="fa fa-cubes fs-4 text-white"></i>
             </div>
@@ -38,8 +37,7 @@
         <div class="row g-5">
           <div class="col-12">
             <div
-              class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3"
-              style="width: 60px; height: 60px"
+              class="triangle mb-3"
             >
               <i class="far fa-smile-beam fs-4 text-white"></i>
             </div>
@@ -64,3 +62,15 @@ export default {};
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>
+<style lang="scss" scoped>
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent; /* نیمه راست مثلث */
+  border-right: 30px solid transparent; /* نیمه چپ مثلث */
+  border-bottom: 60px solid #F5841A; /* رنگ مثلث (bg-primary) */
+  position: relative;
+}
+
+
+</style>

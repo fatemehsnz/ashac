@@ -70,7 +70,7 @@ export default createStore({
       {
         title: "telegram",
         icon: "fa-brands fa-telegram",
-        href: "http://t.m e/",
+        href:"https://t.me/armanshetab",
       },
       {
         title: "linkedin",

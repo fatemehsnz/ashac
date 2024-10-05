@@ -107,6 +107,7 @@
         </div>
       </div>
     </div>
+   
   </footer>
 </template>
 
@@ -117,6 +118,7 @@ export default {
     ...mapState(["socials", "enamad"]),
   },
 };
+
 </script>
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
