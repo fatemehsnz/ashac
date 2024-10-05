@@ -94,3 +94,13 @@ export default {
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
 <style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>
+
+<style lang="scss" scoped>
+header {
+    position: sticky; 
+    top: 0;  
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+
+</style>
