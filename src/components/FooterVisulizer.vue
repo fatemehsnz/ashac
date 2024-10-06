@@ -6,18 +6,10 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 offset-md-1">
-            <ul class="social_icon text_align_center">
-              <li v-for="(social, index) in socials" :key="index">
-                <a :href="social.href" target="_blank"
-                  ><font-awesome-icon :icon="social.icon"
-                /></a>
-              </li>
-            </ul>
-          </div>
+           
           <div class="col-md-4 col-sm-6">
             <div class="reader dir-rtl">
-              <h3>ارتباط با ما</h3>
+              <h3 class="mb-4">ارتباط با ما</h3>
               <address>
                 <font-awesome-icon
                   icon="fa fa-map-marker-alt"
@@ -54,6 +46,22 @@
                   aria-hidden="true"
                 />
                 30 25 20 09007
+              </a>
+              <br />
+              <a  href= "https://www.instagram.com/ashac.ir/">
+                <font-awesome-icon
+                  icon= "fa-brands fa-instagram"
+                  aria-hidden="true"
+                />
+                ashac.ir
+              </a>
+              <br />
+              <a  href= "https://www.linkedin.com/in/ashac-ir/">
+                <font-awesome-icon
+                  icon= "fab fa-linkedin"
+                  aria-hidden="true"
+                />
+                Asha Consulting Group
               </a>
             </div>
           </div>
@@ -92,6 +100,7 @@
               </div>
             </div>
           </div>
+          
         </div>
       </div>
       <div class="copyright text_align_center">
@@ -106,6 +115,20 @@
           </div>
         </div>
       </div>
+      <div class="col-md-10 offset-md-1">
+            <ul class="social_icon text_align_center">
+              <li v-for="(social, index) in socials" :key="index">
+                  <a :href="social.href" target="_blank">
+                      <template v-if="social.title === 'eitta'"> 
+                          <img :src="social.image" alt="eitta" style="width: 27px; height: 27px;" />
+                      </template>
+                      <template v-else>
+                          <font-awesome-icon :icon="social.icon" />
+                      </template>
+                  </a>
+              </li>
+            </ul>
+          </div> 
     </div>
    
   </footer>

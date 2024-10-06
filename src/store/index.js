@@ -63,9 +63,9 @@ export default createStore({
       },
     ],
     socials: [{
-        title: "instagram",
-        icon: "fa-brands fa-instagram",
-        href: "https://www.instagram.com/ashac.ir/",
+        title: "eitta",
+        image :require('@/assets/img/eitaa-icon-colorful.png'),
+        href: "https://eitaa.com/Ashagroup",
       },
       {
         title: "telegram",
@@ -73,20 +73,10 @@ export default createStore({
         href:"https://t.me/armanshetab",
       },
       {
-        title: "linkedin",
-        icon: "fab fa-linkedin",
-        href: "https://www.linkedin.com/in/ashac-ir/",
-      },
-      {
         title: "whatsapp",
         icon: "fab fa-whatsapp",
         href: "https://api.whatsapp.com/send?phone=989151043668",
-      },
-      // {
-      //   title: "ita",
-      //   icon: "@/assets/103-GraFa-1.png",
-      //   href: "https://www.linkedin.com/in/ashac-ir/",
-      // },
+      }
     ],
     services: [
       {
