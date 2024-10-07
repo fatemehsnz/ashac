@@ -14,7 +14,9 @@
             </div>
             <form
               ref="form"
-              @submit.prevent="sendMail(name, organization, email, phone, message)"
+              @submit.prevent="
+                sendMail(name, organization, email, phone, message)
+              "
             >
               <div class="row dir-rtl">
                 <div class="col-lg-6">
@@ -126,12 +128,12 @@ import emailjs from "@emailjs/browser";
 function sendMail(name, organization, email, phone, message) {
   var templateParams = {
     name: name,
-    to_name: "Nafas",
+    to_name: "ashagroup.c@gmail.com",
     message: message,
     from: email,
     phone: phone,
     organization: organization,
-    reply_to: "",
+    reply_to: email,
   };
 
   emailjs

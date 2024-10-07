@@ -13,7 +13,9 @@
             </div>
             <form
               ref="form"
-              @submit.prevent="sendMail(name, organization, email, phone, message)"
+              @submit.prevent="
+                sendMail(name, organization, email, phone, message)
+              "
             >
               <div class="row dir-rtl">
                 <div class="col-lg-6">
@@ -108,7 +110,6 @@
   </section>
 </template>
 
-
 <script setup>
 import emailjs from "@emailjs/browser";
 function sendMail(name, organization, email, phone, message) {
@@ -141,7 +142,6 @@ function sendMail(name, organization, email, phone, message) {
     );
 }
 </script>
-
 
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.1.3.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.uza.scss"></style>
