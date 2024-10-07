@@ -8,9 +8,7 @@
       <div class="col-lg-4">
         <div class="row g-5">
           <div class="col-12">
-            <div
-              class="triangle mb-3"
-            >
+            <div class="triangle mb-3">
               <i class="fa fa-cubes fs-4 text-white"></i>
             </div>
             <h3>چرا مشاور؟</h3>
@@ -25,20 +23,13 @@
       </div>
       <div class="col-lg-4">
         <div class="d-block bg-primary h-100 text-center">
-          <img
-            class="img-fluid"
-            src="@/assets/img/chess.jpg"
-            alt=""
-          />
-         
+          <img class="img-fluid" src="@/assets/img/chess.jpg" alt="" />
         </div>
       </div>
       <div class="col-lg-4">
         <div class="row g-5">
           <div class="col-12">
-            <div
-              class="triangle mb-3"
-            >
+            <div class="triangle mb-3">
               <i class="far fa-smile-beam fs-4 text-white"></i>
             </div>
             <h3>چرا آشا؟</h3>
@@ -60,7 +51,11 @@
 export default {};
 </script>
 
-<style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
+<style
+  lang="css"
+  scoped
+  src="@/assets/css/bootstrap.v4.5.3.basco.min.css"
+></style>
 <style lang="scss" scoped src="@/assets/scss/consultancy.scss"></style>
 <style lang="scss" scoped>
 .triangle {
@@ -68,9 +63,7 @@ export default {};
   height: 0;
   border-left: 30px solid transparent; /* نیمه راست مثلث */
   border-right: 30px solid transparent; /* نیمه چپ مثلث */
-  border-bottom: 60px solid #F5841A; /* رنگ مثلث (bg-primary) */
+  border-bottom: 60px solid #f5841a;
   position: relative;
 }
-
-
 </style>
