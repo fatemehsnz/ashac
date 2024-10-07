@@ -89,7 +89,7 @@
                   <li>اخذ مجوزهای تولید محصول (پزشکی، غذایی، صنعتی و ...)</li>
                   <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول (TF/FS/BP)</li>
                 </ul>
-              </p>
+              </p>  
               <div class="row">
                 <div class="col-3"></div>
                 <div class="col-8">
@@ -115,7 +115,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-10 offset-md-1">
+      <div class="fixed-social">
             <ul class="social_icon text_align_center">
               <li v-for="(social, index) in socials" :key="index">
                   <a :href="social.href" target="_blank">
@@ -147,3 +147,14 @@ export default {
 <style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
 <style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>
+<style lang="scss" scoped >
+.fixed-social {
+  position: fixed;
+  bottom: 0;  
+  background-color : #242323;
+   z-index: 11;
+   left: 0;
+  width: 100%;
+}
+
+</style>
