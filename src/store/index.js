@@ -87,7 +87,14 @@ export default createStore({
         items: [{
           title: 'دانش بنیان',
           img: 'danesh1.79dd5a6f.png',
-          desc: '- چرا دانش بنیان شویم؟<br> - تسهیل اخذ گواهی دانش بنیان<br>- دریافت تسهیلات مختلف<br>- مشاوره حمایت های دانش بنیان<br>- مشاوره تولید دانش محور<br>  - قانون جهش تولید دانش بنیان<br>',
+          desc: [
+            { text: 'چرا دانش بنیان شویم؟', link: 'link1' },
+            { text: 'تسهیل اخذ گواهی دانش بنیان', link: 'link2' },
+            { text: 'دریافت تسهیلات مختلف', link: 'link3' },
+            { text: 'مشاوره حمایت های دانش بنیان', link: 'link4' },
+            { text: 'مشاوره تولید دانش محور', link: 'link5' },
+            { text: 'قانون جهش تولید دانش بنیان', link: 'link6' }
+        ],
           style: 'padding_0 margin_right20'
         }
      ]
@@ -100,7 +107,11 @@ export default createStore({
         items: [{
           title: 'پروانه ساخت',
           img: 'qaza.ac5904cc.png',
-          desc: '- برای تولید چه مجوزهایی لازم است؟<br> - تولید تجهیزات پزشکی<br>- مجوز واردات و صادرات محصولات غذایی و دارویی آرایشی و بهداشتی',
+          desc: [
+            { text: 'برای تولید چه مجوزهایی لازم است؟', link: 'link1' },
+            { text: 'تولید تجهیزات پزشکی', link: 'link2' },
+            { text: 'مجوز واردات و صادرات محصولات غذایی و دارویی آرایشی و بهداشتی', link: 'link3' }
+          ],
           style: 'padding_0 margin_right20'
         }
      ]
@@ -113,8 +124,15 @@ export default createStore({
         items: [{
           title: 'ایزو',
           img: 'iso.bfa55c99.png',
-          desc: '- ISO 9001 (QUALITY MANAGEMENT SYSTEM)<br>- ISO 13485 (MEDICAL DEVICE QUALITY MANAGEMENT SYSTEM)<br>- IMS (INTEGRATED MANAGEMENT SYSTEM; 45001-14001-9001)<br>- ISO 16949 (IATF: INTERNATIONAL AUTOMOTIVE TASK FORCE)<br>- EFQM (EUROPEAN FOUNDATION FOR QUALITY MANAGEMENT)<br>- CE (CONFORMITE EUROPEENNE)',
-          style: 'padding_0 margin_right20'
+          desc: [
+            { text: 'ISO 9001 (QUALITY MANAGEMENT SYSTEM)', link: 'link1' },
+            { text: 'ISO 13485 (MEDICAL DEVICE QUALITY MANAGEMENT SYSTEM)', link: 'link2' },
+            { text: 'IMS (INTEGRATED MANAGEMENT SYSTEM; 45001-14001-9001)', link: 'link3' },
+            { text: 'ISO 16949 (IATF: INTERNATIONAL AUTOMOTIVE TASK FORCE)', link: 'link4' },
+            { text: 'EFQM (EUROPEAN FOUNDATION FOR QUALITY MANAGEMENT)', link: 'link5' },
+            { text: 'CE (CONFORMITE EUROPEENNE)', link: 'link6' }
+        ],
+         style: 'padding_0 margin_right20'
         }
       ]
       }
@@ -127,7 +145,15 @@ export default createStore({
         items: [{
             title: 'آموزش سیستم های مدیریت کیفیت',
             img: 'asha.4f489db8.png',
-            desc: '- سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟<br>- مزایای عضویت در پارک علم و فناوری<br>- خدمات مالکیت معنوی و فکری<br>- اخذ کارت بازرگانی و پروانه بهره برداری<br>- تدوین استراتژی های فروش و بازاریابی<br>- مطالعات امکان سنجی تولید(FS) <br>- تدوین طرح تجاری (BP)',
+            desc: [
+              { text: 'سرمایه دارم! چی تولید کنم؟ آشا چه کمکی به شما میکند؟', link: 'link1' },
+              { text: 'مزایای عضویت در پارک علم و فناوری', link: 'link2' },
+              { text: 'خدمات مالکیت معنوی و فکری', link: 'link3' },
+              { text: 'اخذ کارت بازرگانی و پروانه بهره برداری', link: 'link4' },
+              { text: 'تدوین استراتژی های فروش و بازاریابی', link: 'link5' },
+              { text: 'مطالعات امکان سنجی تولید(FS)', link: 'link6' },
+              { text: 'تدوین طرح تجاری (BP)', link: 'link7' }
+          ],
             style: 'padding_0 margin_right20'
           }
         ]
@@ -140,8 +166,15 @@ export default createStore({
         items: [{
           title: 'خدمات مهندسی',
           img: 'mohandes.e3423891.png',
-          desc: '- چگونه طرح توجیهی تولید بنویسیم؟<br>- مدیریت ریسک و آنالیز ریسک چیست؟<br>- چگونگی بررسی بازار و تعیین استراتژی؟<br>- زمان سنجی و افزایش بهره وری<br>- برگزاری دوره های آموزشی<br>- پایش و برنامه ریزی تولید',
-          style: 'padding_0 margin_right20'
+          desc: [
+            { text: 'چگونه طرح توجیهی تولید بنویسیم؟', link: 'link1' },
+            { text: 'مدیریت ریسک و آنالیز ریسک چیست؟', link: 'link2' },
+            { text: 'چگونگی بررسی بازار و تعیین استراتژی؟', link: 'link3' },
+            { text: 'زمان سنجی و افزایش بهره وری', link: 'link4' },
+            { text: 'برگزاری دوره های آموزشی', link: 'link5' },
+            { text: 'پایش و برنامه ریزی تولید', link: 'link6' }
+        ],
+         style: 'padding_0 margin_right20'
         }
      ]
       }

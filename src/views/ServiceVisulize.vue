@@ -47,10 +47,7 @@
                   v-for="(item, index) in service.items"
                   :key="index"
                 >
-                  <router-link
-                    :to="{ name: 'service', params: { name: item.title } }"
-                    class="service-link"
-                  >
+                  
                     <div
                       class="d-flex align-items-start"
                       :class="{ 'ltr-text': service.name === 'iso' }"
@@ -63,15 +60,20 @@
                         />
                       </div>
                       <div class="service-text" style="flex: 2 1 67%">
-                        <p class="description" v-html="item.desc"></p>
-                        <span class="more-link">بیشتر...</span>
+                        <div class="description">
+                          <div v-for="(descItem, idx) in item.desc" :key="idx">
+                            <router-link class="link" :to="{ name: 'service', params: { name: descItem.link } }">
+                              {{ descItem.text }}
+                            </router-link>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </router-link>
+                    </div> 
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -138,5 +140,12 @@ export default {
 .ltr-text .description {
   direction: ltr;
   font-size: 15px;
+}
+.link {
+  color : white !important; 
+}
+
+.link:hover {
+  color: #F5841A !important;
 }
 </style>
