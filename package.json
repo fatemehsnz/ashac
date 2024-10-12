@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nafasameri/ashac.git"
+    "url": "https://github.com/fatemehsnz/ashac"
   },
-  "author": "Nafas Ameri",
+  "author": "fatemeh hasanzadeh",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
