@@ -134,7 +134,7 @@ function sendMail(name, organization, email, phone, message) {
     phone: phone,
     organization: organization,
     reply_to: email,
-  };
+  }; 
 
   emailjs
     .send(

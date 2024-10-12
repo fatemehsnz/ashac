@@ -115,12 +115,12 @@ import emailjs from "@emailjs/browser";
 function sendMail(name, organization, email, phone, message) {
   var templateParams = {
     name: name,
-    to_name: "Ashagroup",
+    to_name: "ashagroup.c@gmail.com",
     message: message,
     from: email,
     phone: phone,
     organization: organization,
-    reply_to: "ashagroup.c@gmail.com",
+    reply_to: "email",
   };
 
   emailjs
