@@ -45,6 +45,7 @@
                 ashagroup.c@gmail.com
               </a>
               <br />
+              <br />
               <a href="tel:05137625727">
                 <font-awesome-icon
                   icon="fa-solid fa-phone"
@@ -59,23 +60,7 @@
                   aria-hidden="true"
                 />
                 30 25 20 09007
-              </a>
-              <br />
-              <a  href= "https://www.instagram.com/ashac.ir/">
-                <font-awesome-icon
-                  icon= "fa-brands fa-instagram"
-                  aria-hidden="true"
-                />
-                ashac.ir
-              </a>
-              <br />
-              <a  href= "https://www.linkedin.com/in/ashac-ir/">
-                <font-awesome-icon
-                  icon= "fab fa-linkedin"
-                  aria-hidden="true"
-                />
-                Asha Consulting Group
-              </a>
+              </a>            
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
