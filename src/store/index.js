@@ -76,6 +76,16 @@ export default createStore({
         title: "whatsapp",
         icon: "fab fa-whatsapp",
         href: "https://api.whatsapp.com/send?phone=989151043668",
+      },
+      {
+        title: "instagram",
+         icon: "fa-brands fa-instagram",
+         href: "https://www.instagram.com/ashac.ir/",
+      },
+      {
+        title: "linkedin",
+        icon: "fab fa-linkedin",
+        href: "https://www.linkedin.com/in/ashac-ir/",
       }
     ],
     services: [

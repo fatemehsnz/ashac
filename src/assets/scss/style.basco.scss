@@ -773,15 +773,15 @@ ul.email li img {
 }
 
 ul.social_icon {
-     padding-top: 30px;
+     //padding-top: 30px;
      padding-bottom: 30px;
-     border-top: #814948 solid 2px;
-     // margin-bottom: 54px;
+     border-bottom: #814948 solid 1px;
+      margin-bottom: 54px;
 }
 
 ul.social_icon li {
      display: inline-block;
-     padding-right: 190px;
+     padding-right: 100px;
 }
 
 ul.social_icon li:last-child {

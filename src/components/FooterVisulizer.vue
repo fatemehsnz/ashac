@@ -6,7 +6,20 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-           
+           <div class="col-md-10 offset-md-1">
+             <ul class="social_icon text_align_center">
+               <li v-for="(social, index) in socials" :key="index">
+                   <a :href="social.href" target="_blank">
+                       <template v-if="social.title === 'eitta'"> 
+                           <img :src="social.image" alt="eitta" style="width: 27px; height: 27px;" />
+                       </template>
+                       <template v-else>
+                           <font-awesome-icon :icon="social.icon" />
+                       </template>
+                   </a>
+               </li>
+             </ul>
+           </div> 
           <div class="col-md-4 col-sm-6">
             <div class="reader dir-rtl">
               <h3 class="mb-4">ارتباط با ما</h3>
@@ -82,14 +95,14 @@
           <div class="col-md-5 col-sm-6">
             <div class="reader dir-rtl">
               <a href="index.html"><img src="@/assets/img/logo-header.png" alt="#"/></a>
-              <p class="padd_flet40">
+              <p class="padd_flet40"></p>  
                 <ul style="list-style-type: armenian;">
                   <li>مشاوره و اخذ گواهی دانش بنیان</li>
                   <li>پیاده سازی سیتم‌های مدیریت کیفیت (CE، ISO)</li>
                   <li>اخذ مجوزهای تولید محصول (پزشکی، غذایی، صنعتی و ...)</li>
                   <li>تهیه تکنیکال فایل، امکان سنجی تولید و نکوین محصول (TF/FS/BP)</li>
                 </ul>
-              </p>  
+              
               <div class="row">
                 <div class="col-3"></div>
                 <div class="col-8">
@@ -100,7 +113,6 @@
               </div>
             </div>
           </div>
-          
         </div>
       </div>
       <div class="copyright text_align_center">
@@ -115,20 +127,7 @@
           </div>
         </div>
       </div>
-      <div class="fixed-social">
-            <ul class="social_icon text_align_center">
-              <li v-for="(social, index) in socials" :key="index">
-                  <a :href="social.href" target="_blank">
-                      <template v-if="social.title === 'eitta'"> 
-                          <img :src="social.image" alt="eitta" style="width: 27px; height: 27px;" />
-                      </template>
-                      <template v-else>
-                          <font-awesome-icon :icon="social.icon" />
-                      </template>
-                  </a>
-              </li>
-            </ul>
-          </div> 
+      
     </div>
    
   </footer>
