@@ -2,12 +2,19 @@
   <div class="container-fluid mb-3">
     <div class="row px-xl-5">
       <div class="col-lg-8 col-md-8">
-        <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+        <div
+          id="header-carousel"
+          class="carousel slide carousel-fade mb-30 mb-lg-0"
+          data-ride="carousel"
+          data-interval="5000"
+        >
           <ol class="carousel-indicators">
             <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#header-carousel" data-slide-to="1"></li>
             <li data-target="#header-carousel" data-slide-to="2"></li>
             <li data-target="#header-carousel" data-slide-to="3"></li>
+            <li data-target="#header-carousel" data-slide-to="4"></li>
+            <li data-target="#header-carousel" data-slide-to="5"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item position-relative active" style="height: 430px">
@@ -16,8 +23,12 @@
                 <div class="p-3" style="max-width: 700px">
 
                   <div class="knb">
-                    <img src="@/assets/img/KSTP.png" style="width: 70px; height: 70px;" />
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                    <img
+                      src="@/assets/img/KSTP.png"
+                      class="animate-image"
+                      style="width: 70px; height: 70px;"
+                    />
+                    <h3 class="display-6 text-white animate__animated slide-in-left">
                       کارگزار رسمی پارک علم و فناوری خراسان
                     </h3>
                   </div>
@@ -32,45 +43,78 @@
               <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 700px">
                   <div class="knb">
+                    <h3 class="display-6 text-white mb-3 animate__animated slide-in-left">
+                    کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
+                    </h3>
+                  </div>
+                  <router-link to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
+                    ما</router-link>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item position-relative" style="height: 430px">
+              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px">
+
+                  <div class="knb">
+                    <img src="@/assets/img/knb.png" style="width: 70px; height: 70px;" />
+                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                      کارگزار رسمی پارک علم و فناوری سلامت
+                    </h3>
+                  </div>
+                  <router-link to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
+                    ما</router-link>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item position-relative" style="height: 430px">
+              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px">
+
+                  <div class="knb">
+                    <img
+                      src="@/assets/img/knb.png"
+                      class="animate-image"
+                      style="width: 70px; height: 70px;"
+                    />
+                    <h3 class="display-6 text-white animate__animated slide-in-left">
+                      عضو و کارگزار رسمی انجمن دانش بنیان
+                    </h3>
+                  </div>
+                  <router-link to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
+                    ما</router-link>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item position-relative" style="height: 430px">
+              <img class="position-absolute w-100 h-100" src="@/assets/img/doctor.jpg" style="object-fit: cover" />
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px">
+
+                  <div class="knb">
+                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                      کارگزار انجمن تولید کنندگان تجهیزات پزشکی
+                    </h3>
+                  </div>
+                  <router-link to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
+                    ما</router-link>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item position-relative" style="height: 430px">
+              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 700px">
+
+                  <div class="knb">
                     <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
                       شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
-                    </h3>
-                  </div>
-                  <!-- <p class="mx-md-5 px-5 animate__animated animate__bounceIn">
-                    .ما اینجا هستیم تا موفقیت های شرکت شما را با هم جشن بگیریم
-                  </p> -->
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
-                  <div class="knb">
-                    <img src="@/assets/img/knb.png" style="width: 70px; height: 70px;" />
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
-                      عضو و کارگزار رسمی انجمن دانش بنیان
-                    </h3>
-                  </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
-                  <div class="knb">
-                    <img src="@/assets/img/knb.png" style="width: 70px; height: 70px;" />
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
-                      عضو و کارگزار رسمی انجمن دانش بنیان
                     </h3>
                   </div>
                   <router-link to="contact-us"
@@ -116,5 +160,36 @@ export default {};
   align-items: center;
   justify-content: center;
   margin-bottom: 10rem !important;
+}
+/* تعریف انیمیشن سفارشی */
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* اعمال انیمیشن */
+.slide-in-left {
+  animation: slide-in-left 1s ease-out;
+}
+/* انیمیشن تصویر */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-image {
+  animation: fade-in 1s ease-in-out;
 }
 </style>
