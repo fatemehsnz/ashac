@@ -9,7 +9,11 @@
           data-interval="5000"
         >
           <ol class="carousel-indicators">
-            <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+            <li
+              data-target="#header-carousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
             <li data-target="#header-carousel" data-slide-to="1"></li>
             <li data-target="#header-carousel" data-slide-to="2"></li>
             <li data-target="#header-carousel" data-slide-to="3"></li>
@@ -17,109 +21,181 @@
             <li data-target="#header-carousel" data-slide-to="5"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item position-relative active" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/1.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
+            <div
+              class="carousel-item position-relative active"
+              style="height: 430px"
+            >
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/1.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="" style="max-width: 700px">
                   <div class="knb">
                     <img
                       src="@/assets/img/KSTP.png"
-                      class="animate-image"
-                      style="width: 70px; height: 70px;"
+                      class="animate-image ml-3"
+                      style="width: 65px; height: 65px"
                     />
-                    <h3 class="display-6 text-white animate__animated slide-in-left">
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
                       کارگزار رسمی پارک علم و فناوری خراسان
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/2.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/2.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div style="max-width: 700px">
                   <div class="knb">
-                    <h3 class="display-6 text-white mb-3 animate__animated slide-in-left">
-                    کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
+                    <img
+                      src="@/assets/img/ferdowsi.png"
+                      class="animate-image ml-3"
+                      style="width: 65px; height: 100px"
+                    />
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
+                      کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/healthBack.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div style="max-width: 700px">
                   <div class="knb">
-                    <img src="@/assets/img/knb.png" style="width: 70px; height: 70px;" />
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                    <img
+                      src="@/assets/img/healthPark.png"
+                      class="animate-image ml-3"
+                      style="width: 65px; height: 65px"
+                    />
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
                       کارگزار رسمی پارک علم و فناوری سلامت
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/kng.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div style="max-width: 700px">
                   <div class="knb">
                     <img
                       src="@/assets/img/knb.png"
-                      class="animate-image"
-                      style="width: 70px; height: 70px;"
+                      class="animate-image ml-3"
+                      style="width: 70px; height: 70px"
                     />
-                    <h3 class="display-6 text-white animate__animated slide-in-left">
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
                       عضو و کارگزار رسمی انجمن دانش بنیان
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/doctor.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/medical.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div style="max-width: 700px">
                   <div class="knb">
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                    <img
+                      src="@/assets/img/Amedal.png"
+                      class="animate-image ml-3"
+                      style="width: 65px; height: 65px"
+                    />
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
                       کارگزار انجمن تولید کنندگان تجهیزات پزشکی
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
-              <img class="position-absolute w-100 h-100" src="@/assets/img/3.jpg" style="object-fit: cover" />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px">
-
+              <img
+                class="position-absolute w-100 h-100"
+                src="@/assets/img/3.jpg"
+                style="object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div style="max-width: 700px">
                   <div class="knb">
-                    <h3 style="right: 20px;" class="display-6 text-white mb-3 animate__animated animate__fadeInDown">
+                    <h3
+                      class="display-6 text-white mb-0 animate__animated slide-in-left"
+                    >
                       شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
                     </h3>
                   </div>
-                  <router-link to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp">ارتباط با
-                    ما</router-link>
+                  <router-link
+                    to="contact-us"
+                    class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                    >ارتباط با ما</router-link
+                  >
                 </div>
               </div>
             </div>
@@ -131,16 +207,24 @@
           <img class="img-fluid" src="@/assets/img/bourse-1.jpg" alt="" />
           <div class="offer-text">
             <h4 class="text-white mb-3">گواهی دانش بنیان</h4>
-            <router-link to="knowledge-based-conditions" class="btn btn-primary" style="font-size: 12px">شرایط دانش بنیان
-              را دارم!؟</router-link>
+            <router-link
+              to="knowledge-based-conditions"
+              class="btn btn-primary"
+              style="font-size: 12px"
+              >شرایط دانش بنیان را دارم!؟</router-link
+            >
           </div>
         </div>
         <div class="product-offer mb-30" style="height: 200px">
           <img class="img-fluid" src="@/assets/img/Slide-R02.jpg" alt="" />
           <div class="offer-text">
             <h4 class="text-white mb-3">تجهیزات و ملزومات پزشکی</h4>
-            <router-link to="process-obtaining-license-producing-medical" class="btn btn-primary"
-              style="font-size: 12px">فرآیند دریافت مجوز و تولید کالای پزشکی</router-link>
+            <router-link
+              to="process-obtaining-license-producing-medical"
+              class="btn btn-primary"
+              style="font-size: 12px"
+              >فرآیند دریافت مجوز و تولید کالای پزشکی</router-link
+            >
           </div>
         </div>
       </div>
@@ -152,7 +236,11 @@
 export default {};
 </script>
 
-<style lang="css" src="@/assets/css/bootstrap.v4.5.3.basco.min.css" scoped></style>
+<style
+  lang="css"
+  src="@/assets/css/bootstrap.v4.5.3.basco.min.css"
+  scoped
+></style>
 <style scoped>
 .knb {
   display: flex;
