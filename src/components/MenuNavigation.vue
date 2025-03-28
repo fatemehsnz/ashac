@@ -13,76 +13,55 @@
     <!-- {{ menu.submenus }} -->
   </div>
   <header>
-    <!-- header inner -->
-    <div class="head-top">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-8 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-6">
-            <div class="logo">
-              <a href="index.html"
-                ><img src="@/assets/img/logo-header.png"
-              /></a>
-            </div>
-          </div>
-          <div class="col-12 col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-0">
-            <ul
-              class="email dir-rtl"
-              style="text-align: left; margin-top: -10px"
-            >
-              <li>
-                <a href="mailto:ashagroup.c@gmail.com?subject=feedback" style="font-size: 11px !important;"
-                  >ashagroup.c@gmail.com
-                  <font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    aria-hidden="true"
-                  />
-                </a>
-              </li>
-              <!-- <li>
-                <a href="tel:05136039420" style="font-size: 11px !important;">
-                  9420 3603 051
-                  <font-awesome-icon
-                    icon="fa-solid fa-phone"
-                    aria-hidden="true"
-                  />
-                </a>
-              </li> -->
-              <li>
-                <a href="tel:09007202530" style="font-size: 11px !important;">
-                  30 25 20 09007
-                  <font-awesome-icon
-                    icon="fa-solid fa-phone"
-                    aria-hidden="true"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-xxl-7 col-xl-6 col-lg-6 col-md-4 col-sm-2 col-xs-3">
-            <ul class="email text_align_right">
-              <li class="d_none">
-                <router-link to="download">دانلود</router-link>
-              </li>
-              <li class="d_none">
-                <router-link to="contact-us">تماس با ما</router-link>
-              </li>
-              <li class="d_none">
-                <router-link to="about-us">درباره ما</router-link>
-              </li>
-              <li>
-                <button class="openbtn" onclick="openNav()">
-                  <font-awesome-icon icon="fa-solid fa-bars" />
-                </button>
-              </li>
-            </ul>
-          </div>
+    <div class="container-fluid">
+      <!-- ردیف اصلی: سه بخش به صورت افقی -->
+      <div class="d-flex justify-content-between align-items-center py-2">
+        <!-- قسمت سوم: تصویر -->
+        <a href="index.html" class="px-3">
+          <img
+            src="@/assets/img/logo-header.png"
+            alt="Logo"
+            style="max-height: 78px; width: 282px"
+          />
+        </a>
+
+        <!-- قسمت دوم: شماره تلفن و ایمیل -->
+        <div
+          class="d-flex flex-row-reverse align-items-center justify-content-center"
+        >
+          <a href="tel:09007202530" class="text-dark px-3 py-2">
+            <font-awesome-icon icon="fa-solid fa-phone" aria-hidden="true" />
+            <i class="bi bi-telephone"></i> 09007202530
+          </a>
+          <a href="mailto:ashagroup.c@gmail.com" class="text-dark px-3 py-2">
+            <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true" />
+            <i class="bi bi-envelope"></i> ashagroup.c@gmail.com
+          </a>
+        </div>
+
+        <!-- قسمت اول: منو -->
+        <div
+          class="d-flex flex-row-reverse align-items-center justify-content-center"
+        >
+          <button class="openbtn" onclick="openNav()">
+            <font-awesome-icon icon="fa-solid fa-bars" />
+          </button>
+          <router-link to="/about-us" class="nav-link text-dark px-3 py-2"
+            >درباره ما</router-link
+          >
+          <router-link to="/contact-us" class="nav-link text-dark px-3 py-2"
+            >تماس با ما</router-link
+          >
+          <router-link to="/download" class="nav-link text-dark px-3 py-2"
+            >دانلود</router-link
+          >
         </div>
       </div>
     </div>
   </header>
 </template>
 
-<script >
+<script>
 import { mapState } from "vuex";
 export default {
   computed: {
@@ -91,16 +70,125 @@ export default {
 };
 </script>
 
-<style lang="css" scoped src="@/assets/css/bootstrap.v4.5.3.basco.min.css"></style>
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
 <style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>
 
 <style lang="scss" scoped>
 header {
-    position: sticky; 
-    top: 0;  
-    z-index: 1000; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* تنظیمات عمومی برای لینک‌ها */
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.text-dark {
+  color: white;
+}
+
+.text-dark:hover {
+  color: orange;
+}
+
+/* برای نمایش افقی */
+.d-flex {
+  display: flex;
+}
+
+/* اطمینان از اینکه بخش‌ها در یک ردیف نمایش داده شوند */
+.d-flex.justify-content-between {
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* برای جلوگیری از چسبیدن به بالا، پایین، چپ و راست */
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* برای فاصله بیشتر بین هر بخش */
+.d-flex > * {
+  margin: 0 10px; /* فاصله افقی بین بخش‌ها */
+}
+
+/* تنظیم flex-row-reverse برای ترتیب از راست به چپ */
+.d-flex.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* اضافه کردن وسط‌چینی عمودی */
+.align-items-center {
+  align-items: center;
+}
+
+/* برای موبایل ها */
+@media (max-width: 768px) {
+  /* منوی همبرگر در سمت راست باقی بماند */
+  .openbtn {
+    display: inline-block; /* نمایش منوی همبرگر */
+    position: absolute;
+    right: 15px; /* قرار دادن همبرگر در سمت راست */
+    top: 50%; /* وسط عمودی صفحه */
+    transform: translateY(-50%); /* برای وسط‌چینی عمودی دقیق */
   }
 
+  /* قسمت اول منو باید مخفی شود (لینک‌های دیگر) */
+  .nav-link {
+    display: none; /* مخفی کردن لینک‌ها */
+  }
+
+  /* قسمت دوم و سوم (شماره تلفن و ایمیل و لوگو) به صورت عمودی نمایش داده شوند */
+  .d-flex.flex-row-reverse.align-items-center {
+    flex-direction: column; /* نمایش عمودی */
+    align-items: flex-start; /* تراز به سمت چپ */
+    width: 100%; /* عرض کامل */
+    margin-left: 15px; /* فاصله از سمت چپ */
+  }
+
+  /* شماره تلفن و ایمیل به صورت عمودی نمایش داده شوند */
+  .d-flex.flex-row-reverse.align-items-center a {
+    margin-bottom: 10px; /* فاصله بین شماره تلفن و ایمیل */
+  }
+
+  /* قسمت لوگو هم عمودی در کنار شماره تلفن نمایش داده شود */
+  .d-flex.flex-row-reverse.align-items-center img {
+    margin-bottom: 10px; /* فاصله بین لوگو و شماره تلفن */
+  }
+}
+
+/* برای تبلت‌ها */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* شماره تلفن و ایمیل به صورت عمودی زیر هم قرار می‌گیرند */
+  #contact-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* فقط منوی همبرگر باقی می‌ماند */
+  #menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* مخفی کردن بقیه لینک‌ها */
+  .nav-link {
+    display: none;
+  }
+
+  /* برای اضافه کردن فاصله بیشتر بین شماره تلفن و ایمیل */
+  #contact-info a {
+    margin-bottom: 10px;
+  }
+}
 </style>
