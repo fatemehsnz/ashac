@@ -19,22 +19,21 @@
         <!-- قسمت سوم: تصویر -->
         <a href="index.html" class="logo-container">
           <img
-              src="@/assets/img/logo-header.png"
-              alt="Logo"
-              class="logo-image"
+            src="@/assets/img/logo-header.png"
+            alt="Logo"
+            class="logo-image"
           />
         </a>
-
 
         <!-- قسمت دوم: شماره تلفن و ایمیل -->
         <div class="d-flex flex-column align-items-center contact-info">
           <a href="tel:09007202530" class="text-dark px-3 py-1">
-              <font-awesome-icon icon="fa-solid fa-phone" aria-hidden="true" />
-              <i class="bi bi-telephone"></i> 09007202530
+            <font-awesome-icon icon="fa-solid fa-phone" aria-hidden="true" />
+            <i class="bi bi-telephone"></i> 09007202530
           </a>
           <a href="mailto:ashagroup.c@gmail.com" class="text-dark px-3 py-1">
-              <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true" />
-              <i class="bi bi-envelope"></i> ashagroup.c@gmail.com
+            <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true" />
+            <i class="bi bi-envelope"></i> ashagroup.c@gmail.com
           </a>
         </div>
 
@@ -82,13 +81,13 @@ header {
   padding-bottom: 9px;
 }
 .logo-image {
-    max-height: 78px; 
-    width: auto;
-    transition: max-height 0.3s ease; /* انیمیشن نرم برای تغییر اندازه */
+  max-height: 78px;
+  width: auto;
+  transition: max-height 0.3s ease; /* انیمیشن نرم برای تغییر اندازه */
 }
 .contact-info a {
-    font-size: 16px;
-    transition: font-size 0.3s ease; /* انیمیشن نرم برای تغییر اندازه متن */
+  font-size: 16px;
+  transition: font-size 0.3s ease; /* انیمیشن نرم برای تغییر اندازه متن */
 }
 /* تنظیمات عمومی برای لینک‌ها */
 .nav-link {
@@ -117,7 +116,6 @@ header {
   justify-content: space-between;
   width: 100%;
 }
-
 
 /* برای فاصله بیشتر بین هر بخش */
 .d-flex > * {
@@ -155,11 +153,11 @@ header {
 
   /* مخفی کردن بقیه لینک‌ها */
   .nav-link {
-    display: none; 
+    display: none;
   }
   .logo-image {
     max-height: 60px; /* کوچک‌تر کردن لوگو برای موبایل */
-   }
+  }
 
   .contact-info {
     flex-direction: column; /* تغییر شماره و ایمیل به حالت عمودی */
@@ -167,20 +165,19 @@ header {
   }
   .contact-info a {
     font-size: 13px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
-    margin-bottom: 5px; /* فاصله بین شماره و ایمیل */
+    margin-top: 5px; /* فاصله بین شماره و ایمیل */
   }
 }
 
 /*  برای صفحه‌های با ارتفاع کمتر از 600 */
 @media (max-width: 500px) {
-  
- .contact-info {
+  .contact-info {
     flex-direction: column; /* تغییر شماره و ایمیل به حالت عمودی */
     align-items: flex-start; /* چسباندن به سمت چپ */
   }
   .contact-info a {
     font-size: 11px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
-    margin-bottom: 5px; /* فاصله بین شماره و ایمیل */
+    margin-top: 0px;
   }
 }
 @media (max-width: 490px) {
@@ -200,5 +197,4 @@ header {
     font-size: 10px; /* کوچک‌تر کردن فونت */
   }
 }
-
 </style>

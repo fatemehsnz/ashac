@@ -21,20 +21,27 @@
             <li data-target="#header-carousel" data-slide-to="5"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item position-relative active" style="height: 430px">
+            <div
+              class="carousel-item position-relative active"
+              style="height: 430px"
+            >
               <img
                 class="position-absolute w-100 h-100"
                 src="@/assets/img/1.jpg"
                 style="object-fit: cover"
               />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
                   <img
                     src="@/assets/img/KSTP.png"
-                    class="animate-image "
+                    class="animate-image"
                     style="width: 65px; height: 65px"
                   />
-                  <h3 class="text-white mb-0 p-2 animate__animated slide-in-left">
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
+                  >
                     کارگزار رسمی پارک علم و فناوری خراسان
                   </h3>
                 </div>
@@ -51,24 +58,26 @@
                 src="@/assets/img/2.jpg"
                 style="object-fit: cover"
               />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
-                    <img
-                      src="@/assets/img/ferdowsi.png"
-                      class="animate-image"
-                      style="width: 65px; height: 100px "
-                    />
-                    <h3
-                      class=" text-white mb-0 p-2 animate__animated slide-in-left"
-                    >
-                      کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
-                    </h3>
-                  </div>
-                  <router-link
-                    to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
-                    >ارتباط با ما</router-link
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
+                  <img
+                    src="@/assets/img/ferdowsi.png"
+                    class="animate-image"
+                    style="width: 65px; height: 100px"
+                  />
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
+                    کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
+                  </h3>
+                </div>
+                <router-link
+                  to="contact-us"
+                  class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
+                  >ارتباط با ما</router-link
+                >
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
@@ -77,24 +86,26 @@
                 src="@/assets/img/healthBack.jpg"
                 style="object-fit: cover"
               />
-             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
-                    <img
-                      src="@/assets/img/healthPark.png"
-                      class="animate-image "
-                      style="width: 65px; height: 65px"
-                    />
-                    <h3
-                      class=" text-white mb-0 p-2 animate__animated slide-in-left"
-                    >
-                      کارگزار رسمی پارک علم و فناوری سلامت
-                    </h3>
-                  </div>
-                  <router-link
-                    to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
-                    >ارتباط با ما</router-link
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
+                  <img
+                    src="@/assets/img/healthPark.png"
+                    class="animate-image"
+                    style="width: 65px; height: 65px"
+                  />
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
+                    کارگزار رسمی پارک علم و فناوری سلامت
+                  </h3>
+                </div>
+                <router-link
+                  to="contact-us"
+                  class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
+                  >ارتباط با ما</router-link
+                >
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
@@ -103,24 +114,26 @@
                 src="@/assets/img/kng.jpg"
                 style="object-fit: cover"
               />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
-                    <img
-                      src="@/assets/img/knb.png"
-                      class="animate-image"
-                      style="width: 70px; height: 70px"
-                    />
-                    <h3
-                      class=" text-white mb-0 p-2 animate__animated slide-in-left"
-                    >
-                      عضو و کارگزار رسمی انجمن دانش بنیان
-                    </h3>
-                  </div>
-                  <router-link
-                    to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
-                    >ارتباط با ما</router-link
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
+                  <img
+                    src="@/assets/img/knb.png"
+                    class="animate-image"
+                    style="width: 70px; height: 70px"
+                  />
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
+                    عضو و کارگزار رسمی انجمن دانش بنیان
+                  </h3>
+                </div>
+                <router-link
+                  to="contact-us"
+                  class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
+                  >ارتباط با ما</router-link
+                >
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
@@ -129,24 +142,26 @@
                 src="@/assets/img/medical.jpg"
                 style="object-fit: cover"
               />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
-                    <img
-                      src="@/assets/img/Amedal.png"
-                      class="animate-image"
-                      style="width: 65px; height: 65px"
-                    />
-                    <h3
-                      class="text-white mb-0 p-2 animate__animated slide-in-left"
-                    >
-                      کارگزار انجمن تولید کنندگان تجهیزات پزشکی
-                    </h3>
-                  </div>
-                  <router-link
-                    to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
-                    >ارتباط با ما</router-link
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
+                  <img
+                    src="@/assets/img/Amedal.png"
+                    class="animate-image"
+                    style="width: 65px; height: 65px"
+                  />
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
+                    کارگزار انجمن تولید کنندگان تجهیزات پزشکی
+                  </h3>
+                </div>
+                <router-link
+                  to="contact-us"
+                  class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
+                  >ارتباط با ما</router-link
+                >
               </div>
             </div>
             <div class="carousel-item position-relative" style="height: 430px">
@@ -155,19 +170,21 @@
                 src="@/assets/img/3.jpg"
                 style="object-fit: cover"
               />
-              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" >
-                <div class="knb pr-4 pl-4">
-                    <h3
-                      class=" text-white mb-0 p-2 animate__animated slide-in-left"
-                    >
-                      شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
-                    </h3>
-                  </div>
-                  <router-link
-                    to="contact-us"
-                    class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
-                    >ارتباط با ما</router-link
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="knb">
+                  <h3
+                    class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
+                    شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
+                  </h3>
+                </div>
+                <router-link
+                  to="contact-us"
+                  class="btn btn-outline-light py-2 px-4 animate__animated animate__fadeInUp"
+                  >ارتباط با ما</router-link
+                >
               </div>
             </div>
           </div>
@@ -219,8 +236,10 @@ export default {};
   align-items: center;
   justify-content: center;
   margin-bottom: 9rem;
+  padding-right: 24px;
+  padding-left: 24px;
   width: 100%;
-  height: 100px
+  height: 100px;
 }
 /* تعریف انیمیشن سفارشی */
 @keyframes slide-in-left {
@@ -252,5 +271,14 @@ export default {};
 
 .animate-image {
   animation: fade-in 1s ease-in-out;
+}
+@media (max-width: 380px) {
+  .knb {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .knb h3 {
+    font-size: 20px;
+  }
 }
 </style>
