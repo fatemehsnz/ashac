@@ -100,7 +100,7 @@ header {
 }
 
 .text-dark {
-  color: white;
+  color: rgb(242, 232, 198);
 }
 
 .text-dark:hover {
@@ -166,26 +166,24 @@ header {
     align-items: flex-start; /* چسباندن به سمت چپ */
   }
   .contact-info a {
-    font-size: 14px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
+    font-size: 13px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
     margin-bottom: 5px; /* فاصله بین شماره و ایمیل */
   }
 }
 
 /*  برای صفحه‌های با ارتفاع کمتر از 600 */
 @media (max-width: 500px) {
-  .logo-image {
-      max-height: 40px; /* کوچک‌تر کردن بیشتر لوگو */
-  }
+  
  .contact-info {
     flex-direction: column; /* تغییر شماره و ایمیل به حالت عمودی */
     align-items: flex-start; /* چسباندن به سمت چپ */
   }
   .contact-info a {
-    font-size: 12px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
+    font-size: 11px; /* کوچک‌تر کردن بیشتر متن شماره و ایمیل */
     margin-bottom: 5px; /* فاصله بین شماره و ایمیل */
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 490px) {
   .d-flex {
     flex-wrap: wrap; /* فعال کردن قابلیت رفتن به خط بعد */
   }
