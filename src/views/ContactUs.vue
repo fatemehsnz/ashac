@@ -120,7 +120,7 @@ function sendMail(name, organization, email, phone, message) {
     from: email,
     phone: phone,
     organization: organization,
-    reply_to: "email",
+    reply_to: email,
   };
 
   emailjs
@@ -133,11 +133,11 @@ function sendMail(name, organization, email, phone, message) {
     .then(
       (result) => {
         console.info("SUCCESS! sending mail", result.text);
-        alert("SUCCESS!", result.text);
+        console.log("پیام با موفقیت ارسال شد:", result.text);
       },
       (error) => {
         console.error("FAILED...", error.text);
-        alert("FAILED...", error.text);
+        console.log("خطا در ارسال پیام:", error.text);
       }
     );
 }
