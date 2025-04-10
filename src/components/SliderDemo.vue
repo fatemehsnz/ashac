@@ -42,7 +42,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    کارگزار رسمی پارک علم و فناوری خراسان
+                  کارگزار رسمی پارک علم و فناوری خراسان
                   </h3>
                 </div>
                 <router-link
@@ -70,7 +70,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
+                  کارگزار رسمی پارک علم و فناوری دانشگاه فردوسی
                   </h3>
                 </div>
                 <router-link
@@ -98,7 +98,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    کارگزار رسمی پارک علم و فناوری سلامت
+                  کارگزار رسمی پارک علم و فناوری سلامت
                   </h3>
                 </div>
                 <router-link
@@ -126,7 +126,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    عضو و کارگزار رسمی انجمن دانش بنیان
+                  عضو و کارگزار رسمی انجمن دانش بنیان
                   </h3>
                 </div>
                 <router-link
@@ -154,7 +154,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    کارگزار انجمن تولید کنندگان تجهیزات پزشکی
+                  کارگزار انجمن تولید کنندگان تجهیزات پزشکی
                   </h3>
                 </div>
                 <router-link
@@ -177,7 +177,7 @@
                   <h3
                     class="text-white mb-0 p-2 animate__animated slide-in-left"
                   >
-                    شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
+                  شرکت منتخب نخستین جشنواره ملی سرآمد و هفته پژوهش
                   </h3>
                 </div>
                 <router-link

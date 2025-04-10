@@ -1,7 +1,7 @@
 <template>
   <div class="services_main dir-rtl">
     <div class="container">
-      <div class="row">
+      <div  class="row p-3">
         <div class="col-md-3">
           <div class="titlepage">
             <h2>خدمات آشا</h2>
@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-9">
           <ul
-            class="nav nav-tabs md-tabs border_none"
+            class="nav nav-tabs md-tabs border_none "
             id="myTabMD"
             role="tablist"
           >
@@ -19,14 +19,14 @@
               :key="service"
             >
               <a
-                class="nav-link servi_tab"
-                :class="service.name == 'license' && 'active'"
+                class="nav-link servi_tab  rounded"
+                :class="service.name == 'knowledge' && 'active'"
                 :id="service.id"
                 data-toggle="tab"
                 :href="'#' + service.controls"
                 role="tab"
                 :aria-controls="service.controls"
-                :aria-selected="service.name == 'license'"
+                :aria-selected="service.name == 'knowledge'"
                 >{{ service.title }}</a
               >
             </li>
@@ -36,7 +36,7 @@
               v-for="service in services"
               :key="service"
               class="tab-pane fade"
-              :class="service.name == 'license' && 'show active'"
+              :class="service.name == 'knowledge' && 'show active'"
               :id="service.controls"
               role="tabpanel"
               :aria-labelledby="service.id"
@@ -49,8 +49,7 @@
                 >
                   
                     <div
-                      class="d-flex align-items-start"
-                      :class="{ 'ltr-text': service.name === 'iso' }"
+                      class="d-flex align-items-center"
                     >
                       <div class="image-container" style="flex: 1 1 33%">
                         <img
@@ -73,7 +72,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -90,11 +88,7 @@ export default {
 };
 </script>
 
-<style
-  lang="css"
-  scoped
-  src="@/assets/css/bootstrap.v4.5.3.basco.min.css"
-></style>
+<style lang="css" scoped src="@/assets/css/bootstrap.v4.1.3.min.css"></style>   
 <style lang="scss" scoped src="@/assets/scss/style.basco.scss"></style>
 <style lang="scss" scoped src="@/assets/scss/responsive.basco.scss"></style>
 
@@ -119,7 +113,7 @@ export default {
 }
 .service-image {
   transition: transform 0.4s ease;
-  max-width: 100%;
+  width: 150px;
   height: auto;
 }
 
@@ -129,7 +123,6 @@ export default {
 
 .service-text {
   padding-left: 20px;
-  padding-top: 20px;
 }
 
 .description {
