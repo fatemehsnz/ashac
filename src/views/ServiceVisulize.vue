@@ -43,22 +43,21 @@
             >
               <div class="services border p-4">
                 <div
-                  class="col-md-12"
+                  class="d-flex align-items-center"
+                  style="height: 100%"
                   v-for="(item, index) in service.items"
                   :key="index"
                 >
                   
-                    <div
-                      class="d-flex align-items-center"
-                    >
-                      <div class="image-container" style="flex: 1 1 33%">
+                    
+                      <div class="image-container" style="flex: 1 1 31%">
                         <img
                           :src="require(`../assets/img/${item.img}`)"
                           :alt="item.title"
                           class="service-image"
                         />
                       </div>
-                      <div class="service-text" style="flex: 2 1 67%">
+                      <div class="service-text" style="flex: 2 1 69%">
                         <div class="description">
                           <div v-for="(descItem, idx) in item.desc" :key="idx">
                             <router-link class="link" :to="{ name: 'service', params: { name: descItem.link } }">
@@ -67,7 +66,6 @@
                           </div>
                         </div>
                       </div>
-                    </div> 
                 </div>
               </div>
             </div>
@@ -106,6 +104,7 @@ export default {
   border: 2px solid #000;
   margin-bottom: 30px;
   max-width: 750px;
+  height:235px;
 }
 .image-container {
   margin-left: 20px;
@@ -127,7 +126,6 @@ export default {
 
 .description {
   display: block;
-  margin-top: 5px;
   color: white;
 }
 .ltr-text .description {
