@@ -7,7 +7,7 @@
             <h2>خدمات آشا</h2>
           </div>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
           <ul
             class="nav nav-tabs md-tabs border_none "
             id="myTabMD"

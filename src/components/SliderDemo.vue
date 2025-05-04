@@ -20,20 +20,23 @@
             <li data-target="#header-carousel" data-slide-to="4"></li>
             <li data-target="#header-carousel" data-slide-to="5"></li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner"
+            style="
+            box-shadow: 0 0 10px rgba(200, 200, 200, 0.15), 0 0 20px rgba(180, 180, 180, 0.2);"
+          >
             <div
               class="carousel-item position-relative active"
-              style="height: 430px"
+              style="height: 430px "
             >
               <img
                 class="position-absolute w-100 h-100"
-                src="@/assets/img/1.jpg"
-                style="object-fit: cover"
+                src="@/assets/img/2.jpg"
+                style="object-fit: cover ;"
               />
               <div
                 class="carousel-caption d-flex flex-column align-items-center justify-content-center"
               >
-                <div class="knb">
+                <div class="knb ">
                   <img
                     src="@/assets/img/KSTP.png"
                     class="animate-image"
@@ -55,7 +58,7 @@
             <div class="carousel-item position-relative" style="height: 430px">
               <img
                 class="position-absolute w-100 h-100"
-                src="@/assets/img/2.jpg"
+                src="@/assets/img/1.jpg"
                 style="object-fit: cover"
               />
               <div
@@ -191,8 +194,9 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4">
-        <div class="product-offer mb-30" style="height: 200px">
-          <img class="img-fluid" src="@/assets/img/bourse-1.jpg" alt="" />
+        <div class="product-offer mb-30" style="height: 200px ;
+        box-shadow: 0 0 10px rgba(200, 200, 200, 0.15), 0 0 20px rgba(180, 180, 180, 0.2);">
+          <img class="img-fluid" src="@/assets/img/danesh.jpg" alt="" />
           <div class="offer-text">
             <h4 class="text-white mb-3">گواهی دانش بنیان</h4>
             <router-link
@@ -203,8 +207,9 @@
             >
           </div>
         </div>
-        <div class="product-offer mb-30" style="height: 200px">
-          <img class="img-fluid" src="@/assets/img/Slide-R02.jpg" alt="" />
+        <div class="product-offer mb-30" style="height: 200px ;
+        box-shadow: 0 0 10px rgba(200, 200, 200, 0.15), 0 0 20px rgba(180, 180, 180, 0.2);">
+          <img class="img-fluid" src="@/assets/img/tajhiz2.jpg" alt="" />
           <div class="offer-text">
             <h4 class="text-white mb-3">تجهیزات و ملزومات پزشکی</h4>
             <router-link
