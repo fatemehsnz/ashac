@@ -104,7 +104,7 @@ export default {
   border: 2px solid #000;
   margin-bottom: 30px;
   max-width: 750px;
-  height:235px;
+  
 }
 .image-container {
   margin-left: 20px;
@@ -139,4 +139,16 @@ export default {
 .link:hover {
   color: #F5841A !important;
 }
+
+@media (max-width: 568px) {
+  .services .d-flex {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+  .service-text {
+    padding-left: 0 !important;
+    margin-top: 20px; /* فاصله بین عکس و متن */
+  }
+ }
 </style>
