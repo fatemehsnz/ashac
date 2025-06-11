@@ -1,6 +1,6 @@
 <template>
   <div class="container py-5 dir-rtl text-right">
-    <h2 class="text-center mb-4" style="color: rgb(242, 232, 198)">فایل‌های قابل دانلود</h2>
+    <h2 class="text-center mb-4" style="color: rgb(242, 232, 198)">فایل‌های قابل دانلود به زودی ...</h2>
     <div class="row">
       <div class="col-md-6 col-lg-4 mb-4" v-for="(file, index) in files" :key="index">
         <div class="card h-100 shadow-lg">
@@ -20,21 +20,14 @@
 export default {
   data() {
     return {
-      files: [
-        {
-          title: "فایل شماره ۱",
-          price: "۱۵۰۰۰",
-          description: " روش اجرایی آموزش ",
-          link: "https://filemas.com/product/%d8%b1%d9%88%d8%b4-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4/",
-        },
-        {
-          title: "فایل شماره ۲",
-          price: "۲۰۰۰۰",
-          description: "راهنمای کامل مجوز تجهیزات پزشکی",
-          link: "https://filemas.com/product/test-link-2",
-        },
-        // تا ۱۰ فایل همینجوری اضافه کن
-      ],
+     // files: [
+        //{
+        //  title: "فایل شماره ۱",
+        //  price: "۱۵۰۰۰",
+        //  description: " روش اجرایی آموزش ",
+        //  link: "https://filemas.com/product/%d8%b1%d9%88%d8%b4-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4/",
+        //},
+     // ],
     };
   },
 };
